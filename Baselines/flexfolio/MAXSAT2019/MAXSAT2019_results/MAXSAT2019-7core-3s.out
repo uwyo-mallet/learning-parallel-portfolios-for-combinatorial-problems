@@ -1,0 +1,1081 @@
+% flexfolio Trainer!
+% Published under GPLv2
+% https://bitbucket.org/mlindauer/flexfolio
+% Command line arguments:
+% --aslib-dir MAXSAT2019/MAXSAT-2019-7-Cores/ --model-dir MAXSAT2019/models/7-core/ --preconf 3s --print-time MAXSAT2019/maxsat_results/MAXSAT-7core-3s.csv --t-aspeed 7
+% Read MAXSAT2019/MAXSAT-2019-7-Cores/description.txt
+% Read MAXSAT2019/MAXSAT-2019-7-Cores/algorithm_runs.arff
+% Read MAXSAT2019/MAXSAT-2019-7-Cores/feature_values.arff
+% Read MAXSAT2019/MAXSAT-2019-7-Cores/feature_runstatus.arff
+% Read MAXSAT2019/MAXSAT-2019-7-Cores/feature_costs.arff
+% Read MAXSAT2019/MAXSAT-2019-7-Cores/cv.arff
+% 1-th repetition: 57,57,57,57,57,57,57,57,58,58 distribution
+% Used Feature Steps (1): ALL
+% Used features (54): reducedVars,VCG.CLAUSE.entropy,POSNEG.RATIO.VAR.entropy,HORNY.VAR.entropy,cluster.coeff.min,VCG.VAR.mean,VCG.VAR.entropy,HORNY.VAR.mean,nvarsOrig,POSNEG.RATIO.VAR.stdev,POSNEG.RATIO.VAR.max,nclauses,HORNY.VAR.min,VCG.VAR.coeff.variation,TRINARY.,VG.min,CG.entropy,cluster.coeff.coeff.variation,UNARY,cluster.coeff.entropy,horn.clauses.fraction,cluster.coeff.mean,CG.min,CG.max,Basic.featuretime,VG.max,VCG.VAR.min,Pre.featuretime,CG.featuretime,cluster.coeff.max,VCG.CLAUSE.min,VCG.VAR.max,VG.mean,nvars,POSNEG.RATIO.CLAUSE.coeff.variation,VCG.CLAUSE.mean,BINARY.,KLB.featuretime,POSNEG.RATIO.CLAUSE.min,VCG.CLAUSE.coeff.variation,VCG.CLAUSE.max,HORNY.VAR.coeff.variation,HORNY.VAR.max,POSNEG.RATIO.VAR.mean,POSNEG.RATIO.CLAUSE.entropy,POSNEG.RATIO.CLAUSE.max,POSNEG.RATIO.CLAUSE.mean,nclausesOrig,POSNEG.RATIO.VAR.min,CG.coeff.variation,vars.clauses.ratio,VG.coeff.variation,reducedClauses,CG.mean
+% 
+% Check Consistency and Completeness of input data
+% Instances: 		 572
+% Algorithms: 		 7
+% Incomplete Feature Vector: 	 0 (maybe imputed)
+% Unsolvable Instances (status): 	 130
+% Unsolvable Instances (runtime): 	 130
+% Valid Instances: 	 442
+% Presolved: 		 0
+% Average Feature Costs: 	 159.5876
+% Use given CV of 1-th repetition
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12158.46 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8606.10 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12101.96 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 13515.10 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 6527.60 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 6349.11 (52 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11918.45 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12523.92 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11155.50 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11177.44 (52 instances)
+% 
+%  >>> Instances: 515 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 118
+% PAR1 time: 899.653087 (97.031083)
+% Par10 time: 8323.113282 (96.733854)
+% #TOs: 118 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 150
+% Solved (perc) (with unsolved): 0.7087
+% PAR1 (with unsolved): 1166.68
+% PAR10 (with unsolved): 10603.57
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 32
+% Solved (perc) (without unsolved): 0.9194
+% PAR1 (without unsolved): 443.42
+% PAR10 (without unsolved): 3055.01
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 90508.75, 'UWrMaxSat-1.0': 246838.84001000004, 'MaxHS': 159873.22001999998, 'Open-WBO-g': 27.71, 'maxino2018': 46052.28, 'Open-WBO-ms': 14399.869999999999}
+% Optimal Time used by each solver: {'QMaxSAT2018': 428166.07999999996, 'Open-WBO-ms-pre': 13452.42, 'UWrMaxSat-1.0': 2378.3400299999994, 'MaxHS': 13722.329999999998, 'Open-WBO-g': 512.1700099999999, 'maxino2018': 1610.4799999999996, 'Open-WBO-ms': 3479.5200000000004}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDP8fkVu.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDOFWgSi.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 515 (-unsolvable)
+% Used Instances for Training: 515 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 8996.13 (57 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10059.96 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9293.39 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7873.71 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 14242.16 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9295.81 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7709.19 (52 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12619.76 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 13268.59 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11873.07 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9091.82 (52 instances)
+% 
+%  >>> Instances: 515 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 116
+% PAR1 time: 891.468427 (104.025664)
+% Par10 time: 8189.107262 (103.734937)
+% #TOs: 116 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 149
+% Solved (perc) (with unsolved): 0.7107
+% PAR1 (with unsolved): 1162.45
+% PAR10 (with unsolved): 10536.43
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 33
+% Solved (perc) (without unsolved): 0.9173
+% PAR1 (without unsolved): 453.79
+% PAR10 (without unsolved): 3133.49
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 83230.88, 'UWrMaxSat-1.0': 262912.48000999994, 'MaxHS': 148880.46000000002, 'Open-WBO-g': 3600.54, 'maxino2018': 25909.120000000003, 'Open-WBO-ms': 28509.32}
+% Optimal Time used by each solver: {'QMaxSAT2018': 421037.93999999994, 'Open-WBO-ms-pre': 13537.600000000002, 'UWrMaxSat-1.0': 3531.52001, 'MaxHS': 15497.649999999996, 'Open-WBO-g': 562.9100099999998, 'maxino2018': 1459.0999999999997, 'Open-WBO-ms': 3479.5200100000006}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEED1G4BaL.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDbEF89T.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 515 (-unsolvable)
+% Used Instances for Training: 515 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 9562.15 (57 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11405.63 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12123.10 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7182.64 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12098.45 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10716.36 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10521.95 (52 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11855.07 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11188.41 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11204.26 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8431.23 (52 instances)
+% 
+%  >>> Instances: 515 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 119
+% PAR1 time: 908.818660 (100.105076)
+% Par10 time: 8395.189534 (99.804571)
+% #TOs: 119 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 151
+% Solved (perc) (with unsolved): 0.7068
+% PAR1 (with unsolved): 1172.59
+% PAR10 (with unsolved): 10672.39
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 32
+% Solved (perc) (without unsolved): 0.9192
+% PAR1 (without unsolved): 443.14
+% PAR10 (without unsolved): 3061.32
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 85096.78000000001, 'UWrMaxSat-1.0': 312600.4600099999, 'MaxHS': 125498.47002000004, 'Open-WBO-g': 7183.389999999999, 'maxino2018': 11295.329999999998, 'Open-WBO-ms': 17982.269999999997}
+% Optimal Time used by each solver: {'QMaxSAT2018': 431612.16999999987, 'Open-WBO-ms-pre': 11019.990000000002, 'UWrMaxSat-1.0': 3325.84003, 'MaxHS': 16513.920000000002, 'Open-WBO-g': 520.65001, 'maxino2018': 1569.5199999999993, 'Open-WBO-ms': 3479.5200100000006}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDg8BcEe.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDJBf8XS.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 515 (-unsolvable)
+% Used Instances for Training: 515 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 7723.66 (57 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12829.67 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 6517.10 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7202.52 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10706.39 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10028.11 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9101.35 (52 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11856.16 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12579.63 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11213.69 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11202.74 (52 instances)
+% 
+%  >>> Instances: 515 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 118
+% PAR1 time: 902.460486 (100.672922)
+% Par10 time: 8325.920680 (100.375693)
+% #TOs: 118 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 146
+% Solved (perc) (with unsolved): 0.7165
+% PAR1 (with unsolved): 1146.91
+% PAR10 (with unsolved): 10332.15
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 28
+% Solved (perc) (without unsolved): 0.9295
+% PAR1 (without unsolved): 417.78
+% PAR10 (without unsolved): 2702.92
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 65023.770000000004, 'UWrMaxSat-1.0': 227310.91001, 'MaxHS': 209979.61002000005, 'Open-WBO-g': 7165.91, 'maxino2018': 29076.079999999994, 'Open-WBO-ms': 7303.78}
+% Optimal Time used by each solver: {'QMaxSAT2018': 428237.23, 'Open-WBO-ms-pre': 13682.290000000003, 'UWrMaxSat-1.0': 3525.0400300000006, 'MaxHS': 14506.069999999996, 'Open-WBO-g': 535.28001, 'maxino2018': 879.73, 'Open-WBO-ms': 3401.5100100000004}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDhpZbys.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDfNxiz_.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 515 (-unsolvable)
+% Used Instances for Training: 515 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 12073.05 (57 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12859.01 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9288.94 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8589.15 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12101.66 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11422.09 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7740.35 (52 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8432.60 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9852.53 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10514.87 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9764.87 (52 instances)
+% 
+%  >>> Instances: 515 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 116
+% PAR1 time: 893.342874 (106.445063)
+% Par10 time: 8190.981709 (106.154336)
+% #TOs: 116 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 142
+% Solved (perc) (with unsolved): 0.7243
+% PAR1 (with unsolved): 1115.29
+% PAR10 (with unsolved): 10048.88
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 26
+% Solved (perc) (without unsolved): 0.9348
+% PAR1 (without unsolved): 392.92
+% PAR10 (without unsolved): 2504.20
+% 
+% Time used by each solver: {'QMaxSAT2018': 1438.14, 'Open-WBO-ms-pre': 72747.39, 'UWrMaxSat-1.0': 232285.23001, 'MaxHS': 170650.61002, 'Open-WBO-g': 3596.4600000000005, 'maxino2018': 30088.750000000004, 'Open-WBO-ms': 18114.25}
+% Optimal Time used by each solver: {'QMaxSAT2018': 420613.35000000003, 'Open-WBO-ms-pre': 13459.830000000002, 'UWrMaxSat-1.0': 3433.220030000001, 'MaxHS': 17009.999999999996, 'Open-WBO-g': 485.82, 'maxino2018': 1592.1099999999994, 'Open-WBO-ms': 3477.2500100000007}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDsfcH_q.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDKW2WbD.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 515 (-unsolvable)
+% Used Instances for Training: 515 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 10208.02 (57 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9322.71 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12818.14 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8556.65 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10776.14 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9968.02 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8427.08 (52 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9128.47 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 13307.26 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 16677.19 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7023.12 (52 instances)
+% 
+%  >>> Instances: 515 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 121
+% PAR1 time: 923.760505 (101.869696)
+% Par10 time: 8535.952738 (101.562589)
+% #TOs: 121 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 150
+% Solved (perc) (with unsolved): 0.7087
+% PAR1 (with unsolved): 1166.62
+% PAR10 (with unsolved): 10603.51
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 29
+% Solved (perc) (without unsolved): 0.9264
+% PAR1 (without unsolved): 419.31
+% PAR10 (without unsolved): 2804.08
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 68620.09000000003, 'UWrMaxSat-1.0': 232865.55999999988, 'MaxHS': 206424.80002000002, 'Open-WBO-g': 3586.52, 'maxino2018': 30182.419999999995, 'Open-WBO-ms': 14386.699999999999}
+% Optimal Time used by each solver: {'QMaxSAT2018': 438890.67000000004, 'Open-WBO-ms-pre': 13681.36, 'UWrMaxSat-1.0': 3532.370020000001, 'MaxHS': 14472.329999999998, 'Open-WBO-g': 516.30001, 'maxino2018': 1198.9000000000003, 'Open-WBO-ms': 3444.7300100000007}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDeX8I4w.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDlU00Lk.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 515 (-unsolvable)
+% Used Instances for Training: 515 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 7129.50 (57 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10712.79 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7863.14 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9985.78 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12118.03 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10731.70 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 6329.71 (52 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8511.82 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12555.38 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 13939.21 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9234.39 (52 instances)
+% 
+%  >>> Instances: 515 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 119
+% PAR1 time: 907.749282 (98.714344)
+% Par10 time: 8394.120155 (98.413839)
+% #TOs: 119 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 144
+% Solved (perc) (with unsolved): 0.7204
+% PAR1 (with unsolved): 1137.96
+% PAR10 (with unsolved): 10197.38
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 25
+% Solved (perc) (without unsolved): 0.9369
+% PAR1 (without unsolved): 398.11
+% PAR10 (without unsolved): 2443.56
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 59026.68000000001, 'UWrMaxSat-1.0': 236878.4700099999, 'MaxHS': 202282.27002000003, 'Open-WBO-g': 7361.3, 'maxino2018': 10823.8, 'Open-WBO-ms': 25286.210000000003}
+% Optimal Time used by each solver: {'QMaxSAT2018': 430087.05999999994, 'Open-WBO-ms-pre': 12187.29, 'UWrMaxSat-1.0': 3571.1300300000007, 'MaxHS': 16838.77, 'Open-WBO-g': 468.35001, 'maxino2018': 1430.3599999999997, 'Open-WBO-ms': 2907.9200100000007}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDfig548.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDahGmVt.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 515 (-unsolvable)
+% Used Instances for Training: 515 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 10823.19 (57 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10065.31 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7900.66 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 6471.40 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 13513.66 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 464 (-unsolvable)
+% Used Instances for Training: 464 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9952.79 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10472.95 (52 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11199.98 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 13238.47 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7694.04 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9095.02 (52 instances)
+% 
+%  >>> Instances: 515 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 115
+% PAR1 time: 866.035515 (80.020725)
+% Par10 time: 8100.763670 (79.733225)
+% #TOs: 115 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 141
+% Solved (perc) (with unsolved): 0.7262
+% PAR1 (with unsolved): 1093.43
+% PAR10 (with unsolved): 9964.11
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 26
+% Solved (perc) (without unsolved): 0.9350
+% PAR1 (without unsolved): 372.80
+% PAR10 (without unsolved): 2478.80
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 35723.16999999999, 'UWrMaxSat-1.0': 223872.05000999998, 'MaxHS': 202448.52001999997, 'Open-WBO-g': 7182.769999999999, 'maxino2018': 36341.76, 'Open-WBO-ms': 14444.75}
+% Optimal Time used by each solver: {'QMaxSAT2018': 417358.91000000003, 'Open-WBO-ms-pre': 9382.910000000002, 'UWrMaxSat-1.0': 3598.7600300000004, 'MaxHS': 11742.259999999997, 'Open-WBO-g': 524.78001, 'maxino2018': 1605.9999999999995, 'Open-WBO-ms': 1794.6700099999998}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDrgFVpu.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDDlwre9.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 515 (-unsolvable)
+% Used Instances for Training: 515 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 11600.31 (57 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10735.71 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7184.45 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7897.35 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10740.50 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10636.41 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 6476.87 (51 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 462 (-unsolvable)
+% Used Instances for Training: 462 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9865.90 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 462 (-unsolvable)
+% Used Instances for Training: 462 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11163.99 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 462 (-unsolvable)
+% Used Instances for Training: 462 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10537.46 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 462 (-unsolvable)
+% Used Instances for Training: 462 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8408.17 (52 instances)
+% 
+%  >>> Instances: 514 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 107
+% PAR1 time: 823.464864 (93.515823)
+% Par10 time: 7568.003774 (93.252924)
+% #TOs: 107 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 132
+% Solved (perc) (with unsolved): 0.7432
+% PAR1 (with unsolved): 1048.95
+% PAR10 (with unsolved): 9369.58
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 25
+% Solved (perc) (without unsolved): 0.9386
+% PAR1 (without unsolved): 378.29
+% PAR10 (without unsolved): 2368.46
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 57770.64000000001, 'UWrMaxSat-1.0': 204971.74000999998, 'MaxHS': 176922.5900200001, 'Open-WBO-g': 10.23, 'maxino2018': 40037.55, 'Open-WBO-ms': 17802.39}
+% Optimal Time used by each solver: {'QMaxSAT2018': 388688.0, 'Open-WBO-ms-pre': 9894.740000000002, 'UWrMaxSat-1.0': 3499.30003, 'MaxHS': 16612.45, 'Open-WBO-g': 540.01001, 'maxino2018': 1615.5299999999995, 'Open-WBO-ms': 2410.9100100000005}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDoQ5fbF.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDyNiqIt.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 514 (-unsolvable)
+% Used Instances for Training: 514 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 17450.30 (58 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11481.09 (51 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11407.10 (51 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9267.40 (51 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 9395.01 (51 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8577.32 (51 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 463 (-unsolvable)
+% Used Instances for Training: 463 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 7875.40 (51 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 462 (-unsolvable)
+% Used Instances for Training: 462 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 10573.21 (52 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 462 (-unsolvable)
+% Used Instances for Training: 462 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 11849.71 (52 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 462 (-unsolvable)
+% Used Instances for Training: 462 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 15965.60 (52 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: UWrMaxSat-1.0
+% Input Instances for Training: 462 (-unsolvable)
+% Used Instances for Training: 462 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 8445.42 (52 instances)
+% 
+%  >>> Instances: 514 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 121
+% PAR1 time: 929.607101 (107.425064)
+% Par10 time: 8556.609047 (107.117176)
+% #TOs: 121 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 148
+% Solved (perc) (with unsolved): 0.7121
+% PAR1 (with unsolved): 1164.08
+% PAR10 (with unsolved): 10493.26
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 27
+% Solved (perc) (without unsolved): 0.9313
+% PAR1 (without unsolved): 414.08
+% PAR10 (without unsolved): 2640.04
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 81993.18000000001, 'UWrMaxSat-1.0': 234098.11000999997, 'MaxHS': 184137.83001999988, 'Open-WBO-g': 10.96, 'maxino2018': 37298.35000000001, 'Open-WBO-ms': 18056.22}
+% Optimal Time used by each solver: {'QMaxSAT2018': 439018.01999999996, 'Open-WBO-ms-pre': 13650.740000000002, 'UWrMaxSat-1.0': 2932.65003, 'MaxHS': 16734.380000000005, 'Open-WBO-g': 438.98001000000005, 'maxino2018': 1603.1499999999992, 'Open-WBO-ms': 3440.1300100000003}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/ASPEEDBrT3Ja.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=360 -c cores=7 -c featTime=360
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/MAXSAT2019/models/7-core/GROUNDyVpb4L.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 514 (-unsolvable)
+% Used Instances for Training: 514 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 3600.0}, 2: {'claspfolio': 3600.0}, 3: {'claspfolio': 3600.0}, 4: {'claspfolio': 3600.0}, 5: {'claspfolio': 3600.0}, 6: {'claspfolio': 3600.0}, 7: {'claspfolio': 3600.0}}
+% PAR10 on current test set: 6343.57 (58 instances)
+% 
+%  >>> Instances: 572 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 130
+% PAR1 time: 894.643112 (98.949910)
+% Par10 time: 8258.052203 (98.655792)
+% #TOs: 130 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 160
+% Solved (perc) (with unsolved): 0.7203
+% PAR1 (with unsolved): 1134.01
+% PAR10 (with unsolved): 10196.95
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 30
+% Solved (perc) (without unsolved): 0.9321
+% PAR1 (without unsolved): 408.72
+% PAR10 (without unsolved): 2607.82
+% 
+% Time used by each solver: {'QMaxSAT2018': 0, 'Open-WBO-ms-pre': 61800.37999999999, 'UWrMaxSat-1.0': 262028.93000999998, 'MaxHS': 209478.3500199999, 'Open-WBO-g': 7166.7, 'maxino2018': 33780.95, 'Open-WBO-ms': 25527.38}
+% Optimal Time used by each solver: {'QMaxSAT2018': 471523.2699999999, 'Open-WBO-ms-pre': 13772.13, 'UWrMaxSat-1.0': 3703.1300300000003, 'MaxHS': 17072.24, 'Open-WBO-g': 567.25001, 'maxino2018': 1618.3199999999995, 'Open-WBO-ms': 3479.5200100000006}
