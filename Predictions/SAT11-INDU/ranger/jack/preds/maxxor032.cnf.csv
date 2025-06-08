@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"maxxor032.cnf","glucose_2.0",886.86,1657.52664087302,1420.79767492492
+"maxxor032.cnf","glueminisat.2.2.5",45.59,1032.30937301587,1146.1225508264
+"maxxor032.cnf","lingeling.587f.4882048.110513",125.4,1584.08968253968,938.29689276731
+"maxxor032.cnf","minisathackcir_minisat_2011.05.13_simp_",394.95,2115.47562896825,0
+"maxxor032.cnf","minisathackcontrasat_2011.03.02",286.01,2061.51058333333,1503.53488097913
+"maxxor032.cnf","minisathackEBMiniSAT_2011.03.02",1523.21,1872.20233333333,1701.34687002161
+"maxxor032.cnf","minisathackLR_GL_SHR_2011.03.02",204.59,1662.589,1003.03865655179
+"maxxor032.cnf","minisathackMiniSAT_2.2.0.agile.26",1609.27,2304.0857281746,694.114470339064
+"maxxor032.cnf","minisathackminisat_psm_2011.04.01",1246.9,2279.94195436508,673.42405157758
+"maxxor032.cnf","minisathackreferenceminisat_2.2.0",4639.63,2697.31209920635,1743.10562006584
+"maxxor032.cnf","MPhaseSAT64",4038.88,1630.51606150794,0
+"maxxor032.cnf","rcl_2011.04.01",3232.5,2946.24029563492,1541.99735355106
+"maxxor032.cnf","RestartSAT_B95",658.86,2468.04133531746,0
+"maxxor032.cnf","SAT09referencesolverprecosat_236",71.21,1707.09363888889,0

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug6cnfwcnf3.wcnf","MaxHS",190.27,2056.41561482824,144.973239787387
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug6cnfwcnf3.wcnf","maxino2018",73.17,1559.58104400314,141.404820716545
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug6cnfwcnf3.wcnf","Open.WBO.g",5.31,1625.627110008,116.50665749748
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug6cnfwcnf3.wcnf","Open.WBO.ms",0.48,1561.94708243835,151.515540159292
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug6cnfwcnf3.wcnf","Open.WBO.ms.pre",155.46,1354.65349777139,143.342201235516
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug6cnfwcnf3.wcnf","QMaxSAT2018",479.62,1938.76049164635,123.03312408439
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug6cnfwcnf3.wcnf","UWrMaxSat.1.0",56.91,1548.35170881835,113.251252589678

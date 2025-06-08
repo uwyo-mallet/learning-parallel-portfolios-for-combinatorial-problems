@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"dekkerused-assat04-989.cnf","glucose_2.0",4.96,914.260213174326,339.797113139661
+"dekkerused-assat04-989.cnf","glueminisat.2.2.5",3.08,1063.7171549014,210.477100876565
+"dekkerused-assat04-989.cnf","lingeling.587f.4882048.110513",3.1,946.271233718965,343.714545039519
+"dekkerused-assat04-989.cnf","minisathackcir_minisat_2011.05.13_simp_",16.07,1506.28169755267,232.556221187039
+"dekkerused-assat04-989.cnf","minisathackcontrasat_2011.03.02",8.3,1472.95930390495,692.633775396791
+"dekkerused-assat04-989.cnf","minisathackEBMiniSAT_2011.03.02",7.45,1358.02684624576,217.413561596612
+"dekkerused-assat04-989.cnf","minisathackLR_GL_SHR_2011.03.02",14.58,1312.52996400297,249.792122448665
+"dekkerused-assat04-989.cnf","minisathackMiniSAT_2.2.0.agile.26",22.26,1626.17583147451,622.856160804529
+"dekkerused-assat04-989.cnf","minisathackminisat_psm_2011.04.01",8.17,939.560503815616,322.013853137848
+"dekkerused-assat04-989.cnf","minisathackreferenceminisat_2.2.0",16.4,1134.04633240246,294.010251929211
+"dekkerused-assat04-989.cnf","MPhaseSAT64",26.97,1565.3076098835,645.500985699755
+"dekkerused-assat04-989.cnf","rcl_2011.04.01",7.75,1431.01135066364,395.158284654384
+"dekkerused-assat04-989.cnf","RestartSAT_B95",13.35,1487.59916205381,293.203203145663
+"dekkerused-assat04-989.cnf","SAT09referencesolverprecosat_236",10.26,1559.65078862269,528.895175962943

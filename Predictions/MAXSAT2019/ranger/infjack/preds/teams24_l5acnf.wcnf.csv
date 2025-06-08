@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"teams24_l5acnf.wcnf","MaxHS",67.06,313.410403297832,143.182012054449
+"teams24_l5acnf.wcnf","maxino2018",3.87,318.170695657026,151.198736667025
+"teams24_l5acnf.wcnf","Open.WBO.g",3600,123.977226063488,99.1253538553488
+"teams24_l5acnf.wcnf","Open.WBO.ms",3600,112.979630550261,136.073659419992
+"teams24_l5acnf.wcnf","Open.WBO.ms.pre",3600,1494.534863326,124.13104972825
+"teams24_l5acnf.wcnf","QMaxSAT2018",3600,1057.23080165443,380.529870999145
+"teams24_l5acnf.wcnf","UWrMaxSat.1.0",0.89,164.721711203787,133.78468508228

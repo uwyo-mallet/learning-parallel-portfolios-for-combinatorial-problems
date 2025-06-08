@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","MaxHS",24.43,1072.37100058398,3337.88974296158
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","maxino2018",0.88,927.32357304764,2468.16166333952
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","Open.WBO.g",7.23,1693.88257480108,4963.65828058525
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","Open.WBO.ms",184.04,1176.62856452413,3136.00953773836
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","Open.WBO.ms.pre",2.42,1268.73355740521,4381.36128881219
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","QMaxSAT2018",831.49,2106.1548721278,3131.11630051044
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","UWrMaxSat.1.0",2.73,1124.58651922384,3115.27446680027

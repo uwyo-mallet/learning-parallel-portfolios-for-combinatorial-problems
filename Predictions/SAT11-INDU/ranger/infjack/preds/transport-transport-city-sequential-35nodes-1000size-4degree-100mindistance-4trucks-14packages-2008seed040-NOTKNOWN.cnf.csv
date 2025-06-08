@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","glucose_2.0",391.83,4109.76162356322,342.790479645503
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","glueminisat.2.2.5",1630.77,4471.37656992337,131.550811783025
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","lingeling.587f.4882048.110513",5000,4490.21560823755,112.738427960672
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackcir_minisat_2011.05.13_simp_",3485.1,4643.24901819923,150.777315328998
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackcontrasat_2011.03.02",1284.69,4247.02904885058,192.548976521747
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackEBMiniSAT_2011.03.02",3751.89,3886.78068582375,224.401201317729
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackLR_GL_SHR_2011.03.02",2026.88,4831.63885344828,125.243639634862
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackMiniSAT_2.2.0.agile.26",865.05,2660.00561302682,215.101903588395
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackminisat_psm_2011.04.01",4665.41,4248.00783333333,272.190617886346
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackreferenceminisat_2.2.0",5000,4565.61463984674,138.243020803555
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","MPhaseSAT64",5000,3269.61866666667,1336.31332406663
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","rcl_2011.04.01",226.06,2511.13891283525,395.619112372585
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","RestartSAT_B95",5000,4016.04544157088,183.373308272032
+"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",1321.33,2300.48900287356,163.35878775147

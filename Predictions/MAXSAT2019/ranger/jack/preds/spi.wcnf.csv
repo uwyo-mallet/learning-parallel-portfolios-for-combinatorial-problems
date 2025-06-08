@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"spi.wcnf","MaxHS",3600,824.577672494611,940.017200181831
+"spi.wcnf","maxino2018",2,529.122068502432,0
+"spi.wcnf","Open.WBO.g",9.18,423.626686713871,582.806798696721
+"spi.wcnf","Open.WBO.ms",29.04,749.081306653707,0
+"spi.wcnf","Open.WBO.ms.pre",31.82,633.974457389965,608.28360107573
+"spi.wcnf","QMaxSAT2018",2.27,282.007305579195,646.981692188414
+"spi.wcnf","UWrMaxSat.1.0",4.89,373.581191664937,806.385608672581

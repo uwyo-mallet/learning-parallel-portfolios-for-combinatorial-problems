@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"TWComp_huck_N74.wcnf","MaxHS",5.39,2983.84260580755,455.509614727648
+"TWComp_huck_N74.wcnf","maxino2018",2.37,2276.70278374298,0
+"TWComp_huck_N74.wcnf","Open.WBO.g",13.17,2561.46969102667,1232.30536661927
+"TWComp_huck_N74.wcnf","Open.WBO.ms",32.55,2304.64446415863,0
+"TWComp_huck_N74.wcnf","Open.WBO.ms.pre",27.93,1928.35168193109,1405.08737474735
+"TWComp_huck_N74.wcnf","QMaxSAT2018",0.47,2895.61165117464,1290.29350816566
+"TWComp_huck_N74.wcnf","UWrMaxSat.1.0",2.87,2138.22671990479,1383.5998297565

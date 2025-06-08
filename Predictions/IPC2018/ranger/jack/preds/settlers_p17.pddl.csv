@@ -1,0 +1,16 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"settlers_p17.pddl","blind",1800,1741.2166020202,300.765326666213
+"settlers_p17.pddl","Complementary1",1800,1774.20040909091,0
+"settlers_p17.pddl","Complementary2",1800,1762.49447347212,113.955175849974
+"settlers_p17.pddl","DecStar",1800,1753.78809545455,199.269263161764
+"settlers_p17.pddl","Delfi1",1800,1765.93505454545,204.545940743661
+"settlers_p17.pddl","Delfi2",377.86,1750.21624545455,83.0947219908102
+"settlers_p17.pddl","FDMS1",1800,1790.69145454545,13.3806986297164
+"settlers_p17.pddl","FDMS2",1800,1745.61824242424,240.028616509258
+"settlers_p17.pddl","Metis1",1800,1763.89506666667,125.005576427194
+"settlers_p17.pddl","Metis2",1800,1800,0
+"settlers_p17.pddl","Planning.PDBs",1800,1789.75477705628,0
+"settlers_p17.pddl","Scorpion",1800,1716.67797878788,207.788173955853
+"settlers_p17.pddl","symbolic.bidirectional",1800,1771.70063636364,200.735664163923
+"settlers_p17.pddl","Symple.1",1800,1800,0
+"settlers_p17.pddl","Symple.2",1800,1800,0

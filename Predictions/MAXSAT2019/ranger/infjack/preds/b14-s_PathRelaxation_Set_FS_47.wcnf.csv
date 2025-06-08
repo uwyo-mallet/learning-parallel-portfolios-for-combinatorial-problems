@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"b14-s_PathRelaxation_Set_FS_47.wcnf","MaxHS",4.16,1229.84941027824,418.101531461496
+"b14-s_PathRelaxation_Set_FS_47.wcnf","maxino2018",0.83,1151.20989887073,171.528150117848
+"b14-s_PathRelaxation_Set_FS_47.wcnf","Open.WBO.g",5.28,946.933401097674,193.24692067926
+"b14-s_PathRelaxation_Set_FS_47.wcnf","Open.WBO.ms",28.36,983.392234779155,182.169805442996
+"b14-s_PathRelaxation_Set_FS_47.wcnf","Open.WBO.ms.pre",4.55,944.013962488634,364.15650105562
+"b14-s_PathRelaxation_Set_FS_47.wcnf","QMaxSAT2018",349.44,1680.53935410736,390.30476947217
+"b14-s_PathRelaxation_Set_FS_47.wcnf","UWrMaxSat.1.0",0.69,1011.15077337016,119.985072328673

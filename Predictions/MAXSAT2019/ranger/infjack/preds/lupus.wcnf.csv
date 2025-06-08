@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"lupus.wcnf","MaxHS",1.98,1258.84677471831,249.6305152428
+"lupus.wcnf","maxino2018",0.82,1281.54484016782,143.612612141976
+"lupus.wcnf","Open.WBO.g",1.33,1267.36464838127,163.027260174861
+"lupus.wcnf","Open.WBO.ms",11.31,1137.01059383878,515.35737512497
+"lupus.wcnf","Open.WBO.ms.pre",6.57,1011.67376802254,167.911015917408
+"lupus.wcnf","QMaxSAT2018",607.06,1058.94300389548,233.772591718651
+"lupus.wcnf","UWrMaxSat.1.0",0.77,1072.711165134,823.407898065527

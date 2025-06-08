@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"bart17shuffled.cnf","glucose_2.0",0,1388.33272149123,1595.79734843177
+"bart17shuffled.cnf","glueminisat.2.2.5",0,2625.3016995614,1380.19442657777
+"bart17shuffled.cnf","lingeling.587f.4882048.110513",0,2586.94795833333,388.528153906101
+"bart17shuffled.cnf","minisathackcir_minisat_2011.05.13_simp_",0,2184.24950657895,1102.55695142586
+"bart17shuffled.cnf","minisathackcontrasat_2011.03.02",0,2591.77812719298,1487.04060409189
+"bart17shuffled.cnf","minisathackEBMiniSAT_2011.03.02",0,3254.64221491228,1592.94123354997
+"bart17shuffled.cnf","minisathackLR_GL_SHR_2011.03.02",0,2830.38217982456,1878.95520280622
+"bart17shuffled.cnf","minisathackMiniSAT_2.2.0.agile.26",0,2431.592875,0
+"bart17shuffled.cnf","minisathackminisat_psm_2011.04.01",0.01,2773.58335964912,2017.52865876327
+"bart17shuffled.cnf","minisathackreferenceminisat_2.2.0",0,2945.95942105263,1274.1289083226
+"bart17shuffled.cnf","MPhaseSAT64",0.01,2549.58248684211,1973.93002800037
+"bart17shuffled.cnf","rcl_2011.04.01",0.01,3084.93325,2603.71800153221
+"bart17shuffled.cnf","RestartSAT_B95",0,3161.44320394737,0
+"bart17shuffled.cnf","SAT09referencesolverprecosat_236",0,3744.16322587719,0

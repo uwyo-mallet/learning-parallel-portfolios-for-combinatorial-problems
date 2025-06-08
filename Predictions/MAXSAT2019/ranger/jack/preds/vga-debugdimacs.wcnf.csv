@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"vga-debugdimacs.wcnf","MaxHS",28.66,1047.1122760076,877.244792921648
+"vga-debugdimacs.wcnf","maxino2018",2.45,218.72234836594,0
+"vga-debugdimacs.wcnf","Open.WBO.g",1.45,203.866011539824,63.7053640732238
+"vga-debugdimacs.wcnf","Open.WBO.ms",1.68,288.692691729663,320.669353500536
+"vga-debugdimacs.wcnf","Open.WBO.ms.pre",10.48,233.969802435749,339.237221316139
+"vga-debugdimacs.wcnf","QMaxSAT2018",33.4,601.174774360792,587.425754523018
+"vga-debugdimacs.wcnf","UWrMaxSat.1.0",2.62,169.387636773875,278.255754578672

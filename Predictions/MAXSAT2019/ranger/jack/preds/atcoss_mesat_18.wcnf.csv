@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"atcoss_mesat_18.wcnf","MaxHS",3600,1572.30544771242,2650.88224887759
+"atcoss_mesat_18.wcnf","maxino2018",3600,2136.87313071895,1367.23878053468
+"atcoss_mesat_18.wcnf","Open.WBO.g",3600,2050.60614379085,1597.02976690808
+"atcoss_mesat_18.wcnf","Open.WBO.ms",3600,1764.66134313726,1893.85767387588
+"atcoss_mesat_18.wcnf","Open.WBO.ms.pre",3600,1463.6109248366,2122.33078277243
+"atcoss_mesat_18.wcnf","QMaxSAT2018",3600,1478.18272875817,1399.45709782924
+"atcoss_mesat_18.wcnf","UWrMaxSat.1.0",3600,1170.13188562091,1429.99226820908

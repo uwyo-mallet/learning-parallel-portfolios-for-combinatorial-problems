@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"blocks-blocks-36-0180-SAT.cnf","glucose_2.0",18.65,764.315647377992,145.729592028429
+"blocks-blocks-36-0180-SAT.cnf","glueminisat.2.2.5",24.23,980.160724667803,153.858479218447
+"blocks-blocks-36-0180-SAT.cnf","lingeling.587f.4882048.110513",42.84,1017.60379225282,133.480834154641
+"blocks-blocks-36-0180-SAT.cnf","minisathackcir_minisat_2011.05.13_simp_",60.42,1194.73401193829,177.868630563208
+"blocks-blocks-36-0180-SAT.cnf","minisathackcontrasat_2011.03.02",121.42,824.895141559685,156.207391867756
+"blocks-blocks-36-0180-SAT.cnf","minisathackEBMiniSAT_2011.03.02",48.3,1067.36884432737,131.211471961069
+"blocks-blocks-36-0180-SAT.cnf","minisathackLR_GL_SHR_2011.03.02",17.64,1024.40050012564,184.925423742766
+"blocks-blocks-36-0180-SAT.cnf","minisathackMiniSAT_2.2.0.agile.26",34.28,889.354588654812,134.194921480401
+"blocks-blocks-36-0180-SAT.cnf","minisathackminisat_psm_2011.04.01",140.42,1114.08172501925,172.24568892142
+"blocks-blocks-36-0180-SAT.cnf","minisathackreferenceminisat_2.2.0",8.47,1220.74092879723,146.903462212977
+"blocks-blocks-36-0180-SAT.cnf","MPhaseSAT64",139.72,933.455825628572,118.59101737188
+"blocks-blocks-36-0180-SAT.cnf","rcl_2011.04.01",39.24,1036.11343456664,138.31234038198
+"blocks-blocks-36-0180-SAT.cnf","RestartSAT_B95",27.64,900.547617307256,212.41583937665
+"blocks-blocks-36-0180-SAT.cnf","SAT09referencesolverprecosat_236",190.97,820.334071778932,111.195664109917

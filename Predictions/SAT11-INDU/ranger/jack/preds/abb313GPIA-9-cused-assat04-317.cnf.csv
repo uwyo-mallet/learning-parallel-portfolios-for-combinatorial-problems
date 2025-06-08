@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"abb313GPIA-9-cused-assat04-317.cnf","glucose_2.0",5000,1528.38580909091,2116.11674531112
+"abb313GPIA-9-cused-assat04-317.cnf","glueminisat.2.2.5",5000,1629.15987575758,1861.81077475896
+"abb313GPIA-9-cused-assat04-317.cnf","lingeling.587f.4882048.110513",1122.18,1878.81134545455,2485.93095641324
+"abb313GPIA-9-cused-assat04-317.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,2009.86622121212,0
+"abb313GPIA-9-cused-assat04-317.cnf","minisathackcontrasat_2011.03.02",5000,2190.92147878788,1292.59220942999
+"abb313GPIA-9-cused-assat04-317.cnf","minisathackEBMiniSAT_2011.03.02",5000,1732.48881515152,2613.02646471985
+"abb313GPIA-9-cused-assat04-317.cnf","minisathackLR_GL_SHR_2011.03.02",5000,1658.7035030303,2830.22972280662
+"abb313GPIA-9-cused-assat04-317.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,1797.06991515152,1568.8256912082
+"abb313GPIA-9-cused-assat04-317.cnf","minisathackminisat_psm_2011.04.01",5000,2152.71740606061,1797.35768808203
+"abb313GPIA-9-cused-assat04-317.cnf","minisathackreferenceminisat_2.2.0",5000,1533.1637030303,1061.29757057293
+"abb313GPIA-9-cused-assat04-317.cnf","MPhaseSAT64",5000,1471.04476363636,2195.20041491433
+"abb313GPIA-9-cused-assat04-317.cnf","rcl_2011.04.01",5000,2312.72928484848,871.294425716889
+"abb313GPIA-9-cused-assat04-317.cnf","RestartSAT_B95",5000,1236.92572727273,1619.22127072143
+"abb313GPIA-9-cused-assat04-317.cnf","SAT09referencesolverprecosat_236",11.65,1765.67527878788,3005.57277085617

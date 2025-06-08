@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"slp-synthesis-aes-bottom12.cnf","glucose_2.0",12.06,2143.76173446328,223.797997174561
+"slp-synthesis-aes-bottom12.cnf","glueminisat.2.2.5",1159.66,1815.53227824859,255.152961841973
+"slp-synthesis-aes-bottom12.cnf","lingeling.587f.4882048.110513",112.06,2069.93239265537,386.950424476967
+"slp-synthesis-aes-bottom12.cnf","minisathackcir_minisat_2011.05.13_simp_",653.25,3962.57782909605,229.647819727907
+"slp-synthesis-aes-bottom12.cnf","minisathackcontrasat_2011.03.02",252.42,2052.78399435028,243.822962874238
+"slp-synthesis-aes-bottom12.cnf","minisathackEBMiniSAT_2011.03.02",302.35,2292.44246751412,1327.82671357669
+"slp-synthesis-aes-bottom12.cnf","minisathackLR_GL_SHR_2011.03.02",103.21,1606.73895903955,118.707274125834
+"slp-synthesis-aes-bottom12.cnf","minisathackMiniSAT_2.2.0.agile.26",192.39,3174.0309279661,642.817402611784
+"slp-synthesis-aes-bottom12.cnf","minisathackminisat_psm_2011.04.01",59.52,3027.88528531073,199.798114656294
+"slp-synthesis-aes-bottom12.cnf","minisathackreferenceminisat_2.2.0",98.15,4454.99936723164,228.795987546105
+"slp-synthesis-aes-bottom12.cnf","MPhaseSAT64",109.97,1991.36637853107,325.654630081191
+"slp-synthesis-aes-bottom12.cnf","rcl_2011.04.01",4584.52,4771.97483050847,224.921156948665
+"slp-synthesis-aes-bottom12.cnf","RestartSAT_B95",852.25,4225.4094180791,219.484991810249
+"slp-synthesis-aes-bottom12.cnf","SAT09referencesolverprecosat_236",196.84,1742.98367372881,588.533092471949

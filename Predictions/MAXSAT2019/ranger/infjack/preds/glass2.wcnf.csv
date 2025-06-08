@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"glass2.wcnf","MaxHS",0.19,423.760343954248,230.20679358936
+"glass2.wcnf","maxino2018",11.52,346.822990911273,186.061056015778
+"glass2.wcnf","Open.WBO.g",0.11,939.813170931793,160.548164216803
+"glass2.wcnf","Open.WBO.ms",0.12,737.580642507003,966.754537074341
+"glass2.wcnf","Open.WBO.ms.pre",0.86,650.723101353407,252.121746742194
+"glass2.wcnf","QMaxSAT2018",3600,1455.51211104968,405.518279326172
+"glass2.wcnf","UWrMaxSat.1.0",0.47,61.9914312315488,249.486645481518

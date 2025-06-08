@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","MaxHS",0.22,576.746627020177,119.996485292849
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","maxino2018",0.11,518.446967275516,1403.53128533434
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","Open.WBO.g",0.12,514.5418293599,884.606645906473
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","Open.WBO.ms",0.11,358.371013101955,557.222382776079
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","Open.WBO.ms.pre",0.52,333.467073838682,679.356036336515
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","QMaxSAT2018",1.02,787.795419343878,1874.61175898185
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","UWrMaxSat.1.0",0.36,448.65034801156,1142.85328045084

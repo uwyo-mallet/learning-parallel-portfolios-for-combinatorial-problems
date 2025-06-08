@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"9dlx_vliw_at_b_iq7.cnf","glucose_2.0",1401.36,1077.16730801804,165.801217323088
+"9dlx_vliw_at_b_iq7.cnf","glueminisat.2.2.5",737.07,868.61922447762,138.832793680112
+"9dlx_vliw_at_b_iq7.cnf","lingeling.587f.4882048.110513",771.64,1012.21778340418,157.428612789172
+"9dlx_vliw_at_b_iq7.cnf","minisathackcir_minisat_2011.05.13_simp_",1543.56,2420.66972813992,164.102161380795
+"9dlx_vliw_at_b_iq7.cnf","minisathackcontrasat_2011.03.02",1742.71,2051.7067533993,174.580229005585
+"9dlx_vliw_at_b_iq7.cnf","minisathackEBMiniSAT_2011.03.02",5000,2780.21540284836,122.320127125737
+"9dlx_vliw_at_b_iq7.cnf","minisathackLR_GL_SHR_2011.03.02",282.13,873.150182415029,182.54132777135
+"9dlx_vliw_at_b_iq7.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,2721.35275746665,94.4981596951054
+"9dlx_vliw_at_b_iq7.cnf","minisathackminisat_psm_2011.04.01",5000,3110.59614337809,166.27934456606
+"9dlx_vliw_at_b_iq7.cnf","minisathackreferenceminisat_2.2.0",5000,2930.29260447438,134.984039630479
+"9dlx_vliw_at_b_iq7.cnf","MPhaseSAT64",5000,1841.14044190414,99.7586451003617
+"9dlx_vliw_at_b_iq7.cnf","rcl_2011.04.01",5000,2891.02427057901,141.533769754118
+"9dlx_vliw_at_b_iq7.cnf","RestartSAT_B95",5000,2636.87476310515,227.694713505237
+"9dlx_vliw_at_b_iq7.cnf","SAT09referencesolverprecosat_236",3485.92,2229.14420535406,206.481789135818

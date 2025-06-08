@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"mem_ctrl-debugdimacs.wcnf","MaxHS",20.65,461.231941861075,233.635215718097
+"mem_ctrl-debugdimacs.wcnf","maxino2018",2.48,197.530431727058,199.624594334291
+"mem_ctrl-debugdimacs.wcnf","Open.WBO.g",1.03,449.976824784188,264.004470267665
+"mem_ctrl-debugdimacs.wcnf","Open.WBO.ms",1.2,318.679054156082,202.772921538269
+"mem_ctrl-debugdimacs.wcnf","Open.WBO.ms.pre",25.12,344.660597471119,303.701697580558
+"mem_ctrl-debugdimacs.wcnf","QMaxSAT2018",25.04,1130.94591318281,517.790157844252
+"mem_ctrl-debugdimacs.wcnf","UWrMaxSat.1.0",1.8,246.418163497647,499.219358976648

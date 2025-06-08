@@ -1,0 +1,16 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"caldera-split_p05.pddl","blind",20.47,873.705914021164,66.9036540433159
+"caldera-split_p05.pddl","Complementary1",245.24,728.217834656085,35.8765482894815
+"caldera-split_p05.pddl","Complementary2",22.21,849.543400793651,168.136227594346
+"caldera-split_p05.pddl","DecStar",198.51,1121.6791547619,53.5388391630028
+"caldera-split_p05.pddl","Delfi1",8.47,712.881335978836,207.53511214971
+"caldera-split_p05.pddl","Delfi2",10.63,697.066259259259,37.1825540276305
+"caldera-split_p05.pddl","FDMS1",1800,955.959992063492,27.2601971485924
+"caldera-split_p05.pddl","FDMS2",905,1021.15737962963,48.3250161343267
+"caldera-split_p05.pddl","Metis1",6.92,721.241572751323,215.851935741295
+"caldera-split_p05.pddl","Metis2",6.83,733.102134920635,54.3980286153478
+"caldera-split_p05.pddl","Planning.PDBs",22.18,814.879977513227,31.7236979149014
+"caldera-split_p05.pddl","Scorpion",403.16,1012.58476719577,44.6504486496741
+"caldera-split_p05.pddl","symbolic.bidirectional",5.41,733.716264550265,233.840777661521
+"caldera-split_p05.pddl","Symple.1",428.7,1417.62966666667,174.336493098951
+"caldera-split_p05.pddl","Symple.2",429.24,1492.1355978836,49.9985535533504

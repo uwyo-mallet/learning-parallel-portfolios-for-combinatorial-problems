@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"wb-debugdimacs.wcnf","MaxHS",19.68,879.10315283742,129.837215372838
+"wb-debugdimacs.wcnf","maxino2018",23.63,730.638245834939,72.3653933739936
+"wb-debugdimacs.wcnf","Open.WBO.g",2.22,706.318051259853,73.4519030283921
+"wb-debugdimacs.wcnf","Open.WBO.ms",1.96,671.379242255675,113.569350164548
+"wb-debugdimacs.wcnf","Open.WBO.ms.pre",6.88,696.42536627909,57.8061817600234
+"wb-debugdimacs.wcnf","QMaxSAT2018",3600,1074.08423375934,95.3391180599974
+"wb-debugdimacs.wcnf","UWrMaxSat.1.0",4.71,649.619246654979,121.08163282114

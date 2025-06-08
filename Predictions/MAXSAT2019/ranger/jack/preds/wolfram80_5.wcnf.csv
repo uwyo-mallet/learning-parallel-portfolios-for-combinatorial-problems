@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"wolfram80_5.wcnf","MaxHS",27.81,12.6621102040816,7.42543860970255
+"wolfram80_5.wcnf","maxino2018",161.58,35.616419047619,46.7062131825573
+"wolfram80_5.wcnf","Open.WBO.g",60.09,39.0081408163265,25.1933446947563
+"wolfram80_5.wcnf","Open.WBO.ms",70.5,97.5817891156463,36.3183023602727
+"wolfram80_5.wcnf","Open.WBO.ms.pre",3600,3600,0
+"wolfram80_5.wcnf","QMaxSAT2018",3600,3515.78214285714,635.28891127245
+"wolfram80_5.wcnf","UWrMaxSat.1.0",10.71,20.9798261904762,15.3673601643774

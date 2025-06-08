@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","glucose_2.0",2.81,936.058307142857,0
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","glueminisat.2.2.5",1.86,639.135457142857,0
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","lingeling.587f.4882048.110513",8.16,611.214419047619,311.827535771793
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","minisathackcir_minisat_2011.05.13_simp_",3.25,1426.44354166667,1101.3610602841
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","minisathackcontrasat_2011.03.02",1.77,1593.69726666667,1298.14620236192
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","minisathackEBMiniSAT_2011.03.02",1.33,1169.61009047619,1132.07586038618
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","minisathackLR_GL_SHR_2011.03.02",1.44,1073.50559404762,0
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","minisathackMiniSAT_2.2.0.agile.26",2.01,1476.27824642857,0
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","minisathackminisat_psm_2011.04.01",2.13,1304.09868095238,0
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","minisathackreferenceminisat_2.2.0",2.45,1546.47988690476,1301.54661798622
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","MPhaseSAT64",5.44,1789.23954761905,0
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","rcl_2011.04.01",2.01,1208.37065238095,0
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","RestartSAT_B95",3.41,1450.47620357143,163.268244417437
+"hwmcc10-timeframe-expansion-k45-pdtswvqis8x8p2-tseitin.cnf","SAT09referencesolverprecosat_236",2.96,1408.38400714286,558.232513606104

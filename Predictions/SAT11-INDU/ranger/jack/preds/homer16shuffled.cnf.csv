@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"homer16shuffled.cnf","glucose_2.0",450.84,1625.48779871795,1054.7071517398
+"homer16shuffled.cnf","glueminisat.2.2.5",2579.48,2692.7663525641,1918.01932055828
+"homer16shuffled.cnf","lingeling.587f.4882048.110513",5000,2077.79506282051,2011.20764852497
+"homer16shuffled.cnf","minisathackcir_minisat_2011.05.13_simp_",1920.38,1930.76502307692,1340.76054936531
+"homer16shuffled.cnf","minisathackcontrasat_2011.03.02",2566.6,2462.41045769231,1677.9754744742
+"homer16shuffled.cnf","minisathackEBMiniSAT_2011.03.02",3977.92,2552.27831025641,1660.7057163113
+"homer16shuffled.cnf","minisathackLR_GL_SHR_2011.03.02",5000,2635.66762820513,1714.35576291481
+"homer16shuffled.cnf","minisathackMiniSAT_2.2.0.agile.26",3479.19,2764.64438717949,0
+"homer16shuffled.cnf","minisathackminisat_psm_2011.04.01",4408.16,2114.20556538462,1006.70644680012
+"homer16shuffled.cnf","minisathackreferenceminisat_2.2.0",1680.61,2933.14624487179,1193.3172544227
+"homer16shuffled.cnf","MPhaseSAT64",3429.65,2447.77056538462,2039.35177665437
+"homer16shuffled.cnf","rcl_2011.04.01",5000,2677.24239487179,1416.59995871132
+"homer16shuffled.cnf","RestartSAT_B95",4950.63,2707.56224230769,1395.15425080669
+"homer16shuffled.cnf","SAT09referencesolverprecosat_236",5000,2405.60611025641,0

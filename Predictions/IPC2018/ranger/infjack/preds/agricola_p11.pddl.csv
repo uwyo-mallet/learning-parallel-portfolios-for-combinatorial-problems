@@ -1,0 +1,16 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"agricola_p11.pddl","blind",1800,1784.69241818182,38.5424328607399
+"agricola_p11.pddl","Complementary1",1800,1431.6526030303,55.4891360741533
+"agricola_p11.pddl","Complementary2",1800,1765.32438030303,46.9295412596644
+"agricola_p11.pddl","DecStar",1800,1800,40.154608451492
+"agricola_p11.pddl","Delfi1",298.97,935.796363636364,348.1696027569
+"agricola_p11.pddl","Delfi2",376.8,840.334657575758,112.127700999158
+"agricola_p11.pddl","FDMS1",1339.04,1446.52955909091,78.5691510485186
+"agricola_p11.pddl","FDMS2",674.71,989.481168181818,206.469576475461
+"agricola_p11.pddl","Metis1",1800,1800,49.4767501052124
+"agricola_p11.pddl","Metis2",1800,1800,46.6036915432612
+"agricola_p11.pddl","Planning.PDBs",1800,1737.89726969697,60.7132151480422
+"agricola_p11.pddl","Scorpion",1800,1788.53670606061,39.1519410877229
+"agricola_p11.pddl","symbolic.bidirectional",286.59,371.963546969697,41.257407786974
+"agricola_p11.pddl","Symple.1",1800,1800,31.9201050829814
+"agricola_p11.pddl","Symple.2",1800,1800,34.3909636580176

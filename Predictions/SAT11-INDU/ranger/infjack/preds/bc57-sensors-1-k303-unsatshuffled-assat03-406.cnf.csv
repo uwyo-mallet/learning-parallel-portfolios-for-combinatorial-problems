@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","glucose_2.0",4116.14,2063.89033693046,343.175014338103
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","glueminisat.2.2.5",745.36,906.046430455635,99.1803980924535
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","lingeling.587f.4882048.110513",708.03,1525.77039208633,216.085143160729
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackcir_minisat_2011.05.13_simp_",2965.89,3124.48944244604,546.354275575236
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackcontrasat_2011.03.02",989.72,1487.93935491607,273.037129854896
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackEBMiniSAT_2011.03.02",726.73,1369.00770503597,139.324496200347
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackLR_GL_SHR_2011.03.02",858.1,1130.94747841727,184.072659629549
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackMiniSAT_2.2.0.agile.26",663.18,1535.88242925659,136.438616114636
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackminisat_psm_2011.04.01",957.34,1333.16810071942,209.006339261405
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackreferenceminisat_2.2.0",2755.26,3047.13580095923,541.696966464411
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","MPhaseSAT64",1062.36,1817.73324820144,175.411294882892
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","rcl_2011.04.01",674.38,1612.99180455635,519.918539541826
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","RestartSAT_B95",2294.19,2727.4188177458,154.011957221664
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","SAT09referencesolverprecosat_236",938.49,1287.70809352518,254.576615187758

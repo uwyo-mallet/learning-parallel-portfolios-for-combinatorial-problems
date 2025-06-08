@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"splitedReads_158matrix.wcnf","MaxHS",7.15,635.192382788479,306.639048379928
+"splitedReads_158matrix.wcnf","maxino2018",1.4,886.133444592115,763.186711571487
+"splitedReads_158matrix.wcnf","Open.WBO.g",0.32,857.89824622794,493.088704885306
+"splitedReads_158matrix.wcnf","Open.WBO.ms",0.5,705.989545790881,0
+"splitedReads_158matrix.wcnf","Open.WBO.ms.pre",0.95,797.198433238763,1072.6535031766
+"splitedReads_158matrix.wcnf","QMaxSAT2018",6.93,891.215850181836,1288.53094948572
+"splitedReads_158matrix.wcnf","UWrMaxSat.1.0",1.82,387.062417887049,406.047296642333

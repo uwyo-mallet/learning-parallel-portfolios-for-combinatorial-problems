@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"atcoss_sugar_12.wcnf","MaxHS",189.36,1722.34015483274,171.610926308513
+"atcoss_sugar_12.wcnf","maxino2018",16.66,1347.48661752454,766.478731386164
+"atcoss_sugar_12.wcnf","Open.WBO.g",45.71,1650.02102879188,159.303571275704
+"atcoss_sugar_12.wcnf","Open.WBO.ms",147.25,1347.74298872796,412.608782318131
+"atcoss_sugar_12.wcnf","Open.WBO.ms.pre",109.4,1170.58293787512,277.482800592194
+"atcoss_sugar_12.wcnf","QMaxSAT2018",27.53,1775.17752073769,183.256031326897
+"atcoss_sugar_12.wcnf","UWrMaxSat.1.0",16.47,1303.14673815657,237.761261212543

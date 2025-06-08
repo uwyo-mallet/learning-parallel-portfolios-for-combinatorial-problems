@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"korf-17.cnf","glucose_2.0",357.18,815.188593939394,0
+"korf-17.cnf","glueminisat.2.2.5",405.15,953.489384848485,2713.06759818796
+"korf-17.cnf","lingeling.587f.4882048.110513",711.95,580.074463636364,2044.96130906069
+"korf-17.cnf","minisathackcir_minisat_2011.05.13_simp_",1097.41,1084.04303939394,0
+"korf-17.cnf","minisathackcontrasat_2011.03.02",655.97,854.670603030303,0
+"korf-17.cnf","minisathackEBMiniSAT_2011.03.02",429.68,1015.83694848485,0
+"korf-17.cnf","minisathackLR_GL_SHR_2011.03.02",5000,1328.85300909091,1392.61092632684
+"korf-17.cnf","minisathackMiniSAT_2.2.0.agile.26",370.47,991.930775757576,1832.01152878899
+"korf-17.cnf","minisathackminisat_psm_2011.04.01",515.69,764.746784848485,1511.25262259051
+"korf-17.cnf","minisathackreferenceminisat_2.2.0",550.68,1362.16921515152,3108.15667058957
+"korf-17.cnf","MPhaseSAT64",815.04,1184.74737878788,367.954647235741
+"korf-17.cnf","rcl_2011.04.01",3721.12,1448.75898787879,2427.33871285194
+"korf-17.cnf","RestartSAT_B95",349.1,1444.56688181818,1266.22490621017
+"korf-17.cnf","SAT09referencesolverprecosat_236",545.83,950.710678787879,0

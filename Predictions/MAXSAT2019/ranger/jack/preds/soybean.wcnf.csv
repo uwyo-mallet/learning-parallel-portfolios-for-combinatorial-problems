@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"soybean.wcnf","MaxHS",3600,1719.65189097569,4675.21851148029
+"soybean.wcnf","maxino2018",3600,1039.90946625433,2577.61008683534
+"soybean.wcnf","Open.WBO.g",3600,1872.34766662557,3960.46395484619
+"soybean.wcnf","Open.WBO.ms",3600,1385.62658548863,4101.99930953438
+"soybean.wcnf","Open.WBO.ms.pre",3600,1298.67091821687,3690.57218398567
+"soybean.wcnf","QMaxSAT2018",3600,2097.83709961791,2930.62618043594
+"soybean.wcnf","UWrMaxSat.1.0",3600,1266.79179208621,3960.66347022546

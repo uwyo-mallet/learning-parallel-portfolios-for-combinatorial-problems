@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","glucose_2.0",19.77,511.065994047619,1710.14717864142
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","glueminisat.2.2.5",29.48,398.785744047619,748.771246259919
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","lingeling.587f.4882048.110513",59.82,378.682291666667,555.930369635176
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","minisathackcir_minisat_2011.05.13_simp_",76.78,370.50425,633.113963961401
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","minisathackcontrasat_2011.03.02",98.33,570.646236111111,1276.21358580842
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","minisathackEBMiniSAT_2011.03.02",40.25,265.188666666667,495.428389940754
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","minisathackLR_GL_SHR_2011.03.02",35.6,670.203555555556,0
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","minisathackMiniSAT_2.2.0.agile.26",63.97,331.092482142857,592.741011630608
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","minisathackminisat_psm_2011.04.01",63.44,514.390043650794,1250.28995951875
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","minisathackreferenceminisat_2.2.0",74.51,564.845265873016,152.00139745002
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","MPhaseSAT64",36.31,306.591626984127,0
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","rcl_2011.04.01",38.68,509.831107142857,0
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","RestartSAT_B95",32.56,416.611307539683,487.092285088773
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","SAT09referencesolverprecosat_236",96.69,600.271103174603,0

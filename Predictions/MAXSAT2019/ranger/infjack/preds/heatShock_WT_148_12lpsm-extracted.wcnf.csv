@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"heatShock_WT_148_12lpsm-extracted.wcnf","MaxHS",2.63,927.554734984506,52.1311454831082
+"heatShock_WT_148_12lpsm-extracted.wcnf","maxino2018",1.01,761.078745523449,50.4269601214594
+"heatShock_WT_148_12lpsm-extracted.wcnf","Open.WBO.g",12.88,730.307650357955,99.3167893014915
+"heatShock_WT_148_12lpsm-extracted.wcnf","Open.WBO.ms",12.97,700.188901082359,69.3148383453041
+"heatShock_WT_148_12lpsm-extracted.wcnf","Open.WBO.ms.pre",3.46,511.956511675183,62.1715757269011
+"heatShock_WT_148_12lpsm-extracted.wcnf","QMaxSAT2018",3.15,1107.5835832608,96.8189059518142
+"heatShock_WT_148_12lpsm-extracted.wcnf","UWrMaxSat.1.0",5.42,647.45925617609,62.7763644179102

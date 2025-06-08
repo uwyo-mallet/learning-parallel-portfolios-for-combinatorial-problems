@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"MinFill_R4_miles500.wcnf","MaxHS",3600,2319.26059622615,826.167661373739
+"MinFill_R4_miles500.wcnf","maxino2018",3600,1830.59921869565,679.13887459271
+"MinFill_R4_miles500.wcnf","Open.WBO.g",3600,2268.67557989277,0
+"MinFill_R4_miles500.wcnf","Open.WBO.ms",3600,2088.09175694635,900.749542457033
+"MinFill_R4_miles500.wcnf","Open.WBO.ms.pre",3600,1861.83946781577,1053.12066335178
+"MinFill_R4_miles500.wcnf","QMaxSAT2018",3600,2595.61213294045,490.530975533196
+"MinFill_R4_miles500.wcnf","UWrMaxSat.1.0",3600,1547.06102614566,1112.23719167461

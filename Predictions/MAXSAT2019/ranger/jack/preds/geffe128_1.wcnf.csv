@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"geffe128_1.wcnf","MaxHS",40.97,20.5759537037037,31.5671195740401
+"geffe128_1.wcnf","maxino2018",169.67,168.703074074074,400.53643324369
+"geffe128_1.wcnf","Open.WBO.g",23.11,171.835605820106,482.792090377897
+"geffe128_1.wcnf","Open.WBO.ms",11.86,55.7675198412698,52.5330044673625
+"geffe128_1.wcnf","Open.WBO.ms.pre",3600,3600,0
+"geffe128_1.wcnf","QMaxSAT2018",3600,3600,0
+"geffe128_1.wcnf","UWrMaxSat.1.0",7.3,123.117490740741,407.94428782935

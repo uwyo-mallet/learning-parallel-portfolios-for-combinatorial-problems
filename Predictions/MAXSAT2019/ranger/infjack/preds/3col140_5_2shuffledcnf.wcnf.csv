@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"3col140_5_2shuffledcnf.wcnf","MaxHS",55.33,192.109549272516,246.522589494694
+"3col140_5_2shuffledcnf.wcnf","maxino2018",3.54,692.86659341663,386.265501887247
+"3col140_5_2shuffledcnf.wcnf","Open.WBO.g",13.35,571.497881840901,357.488818680502
+"3col140_5_2shuffledcnf.wcnf","Open.WBO.ms",30.29,738.964766447372,259.825253970928
+"3col140_5_2shuffledcnf.wcnf","Open.WBO.ms.pre",33.09,783.224232726674,355.196805114901
+"3col140_5_2shuffledcnf.wcnf","QMaxSAT2018",2.66,619.906657073837,376.002021612314
+"3col140_5_2shuffledcnf.wcnf","UWrMaxSat.1.0",11.15,532.466108327866,360.881855191305

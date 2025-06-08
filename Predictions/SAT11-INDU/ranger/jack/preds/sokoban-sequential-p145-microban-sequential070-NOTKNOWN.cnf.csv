@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","glucose_2.0",5000,3798.80843199234,1785.21130782101
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","glueminisat.2.2.5",5000,3903.28352298851,1587.00272424041
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","lingeling.587f.4882048.110513",5000,3802.22636494253,1890.33525068441
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","minisathackcir_minisat_2011.05.13_simp_",810.61,4067.83844636015,1161.37267265764
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","minisathackcontrasat_2011.03.02",5000,4099.42419252874,1600.63369561586
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","minisathackEBMiniSAT_2011.03.02",5000,4253.30878256705,1053.83485574946
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","minisathackLR_GL_SHR_2011.03.02",5000,4177.83633045977,1549.28056941225
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,3962.43392528736,1747.29465863085
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","minisathackminisat_psm_2011.04.01",5000,4283.12469923372,1307.44221497115
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","minisathackreferenceminisat_2.2.0",5000,4150.97604501916,1461.84703756102
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","MPhaseSAT64",3012.24,2033.11187931034,868.414250893371
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","rcl_2011.04.01",5000,3849.22971072797,1110.64702777902
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","RestartSAT_B95",5000,3877.62950287356,1368.85946554537
+"sokoban-sequential-p145-microban-sequential070-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",5000,2619.42625670498,1925.21076549617

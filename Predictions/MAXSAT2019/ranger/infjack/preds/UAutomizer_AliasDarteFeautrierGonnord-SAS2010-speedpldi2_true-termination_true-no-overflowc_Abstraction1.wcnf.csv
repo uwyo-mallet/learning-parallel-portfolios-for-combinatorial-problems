@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"UAutomizer_AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination_true-no-overflowc_Abstraction1.wcnf","MaxHS",0,446.696917212043,338.431051672383
+"UAutomizer_AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination_true-no-overflowc_Abstraction1.wcnf","maxino2018",0,1217.42897992761,392.24016054606
+"UAutomizer_AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination_true-no-overflowc_Abstraction1.wcnf","Open.WBO.g",0.01,654.206404249865,336.320130952164
+"UAutomizer_AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination_true-no-overflowc_Abstraction1.wcnf","Open.WBO.ms",0.01,1113.52960661464,239.65202095373
+"UAutomizer_AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination_true-no-overflowc_Abstraction1.wcnf","Open.WBO.ms.pre",0.01,899.345380900064,312.092983078211
+"UAutomizer_AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination_true-no-overflowc_Abstraction1.wcnf","QMaxSAT2018",3600,1572.85120589188,379.699361679469
+"UAutomizer_AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination_true-no-overflowc_Abstraction1.wcnf","UWrMaxSat.1.0",0,732.418862968324,369.229837816526

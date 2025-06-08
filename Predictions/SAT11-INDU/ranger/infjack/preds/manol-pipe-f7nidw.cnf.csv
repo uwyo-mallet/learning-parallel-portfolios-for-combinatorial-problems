@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"manol-pipe-f7nidw.cnf","glucose_2.0",55.83,665.410111111111,260.37559344833
+"manol-pipe-f7nidw.cnf","glueminisat.2.2.5",20.07,385.997377777778,204.022280489578
+"manol-pipe-f7nidw.cnf","lingeling.587f.4882048.110513",33.91,303.154468253968,197.148640319957
+"manol-pipe-f7nidw.cnf","minisathackcir_minisat_2011.05.13_simp_",65,1198.24463650794,533.603117145021
+"manol-pipe-f7nidw.cnf","minisathackcontrasat_2011.03.02",51.63,804.857314285714,220.530092462502
+"manol-pipe-f7nidw.cnf","minisathackEBMiniSAT_2011.03.02",90.67,522.86493968254,197.36384971841
+"manol-pipe-f7nidw.cnf","minisathackLR_GL_SHR_2011.03.02",16.72,452.064246031746,165.551093088843
+"manol-pipe-f7nidw.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,953.615119047619,380.089827011579
+"manol-pipe-f7nidw.cnf","minisathackminisat_psm_2011.04.01",214.29,453.993415873016,144.63756029286
+"manol-pipe-f7nidw.cnf","minisathackreferenceminisat_2.2.0",82.32,929.545955555556,191.8835435892
+"manol-pipe-f7nidw.cnf","MPhaseSAT64",48.65,654.490644444444,197.073089693341
+"manol-pipe-f7nidw.cnf","rcl_2011.04.01",115.84,1014.3745031746,268.637998814215
+"manol-pipe-f7nidw.cnf","RestartSAT_B95",74.9,1300.21380793651,287.159157733972
+"manol-pipe-f7nidw.cnf","SAT09referencesolverprecosat_236",23.55,456.489795238095,282.354327556897

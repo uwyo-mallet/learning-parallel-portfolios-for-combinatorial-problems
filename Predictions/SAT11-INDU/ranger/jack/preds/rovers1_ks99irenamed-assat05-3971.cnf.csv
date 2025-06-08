@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"rovers1_ks99irenamed-assat05-3971.cnf","glucose_2.0",0,1211.53577777778,1501.30811979101
+"rovers1_ks99irenamed-assat05-3971.cnf","glueminisat.2.2.5",0,1107.78563095238,1358.08846357967
+"rovers1_ks99irenamed-assat05-3971.cnf","lingeling.587f.4882048.110513",0.02,843.695896825397,1880.22606154165
+"rovers1_ks99irenamed-assat05-3971.cnf","minisathackcir_minisat_2011.05.13_simp_",0,1259.50524206349,0
+"rovers1_ks99irenamed-assat05-3971.cnf","minisathackcontrasat_2011.03.02",0,1082.5758015873,0
+"rovers1_ks99irenamed-assat05-3971.cnf","minisathackEBMiniSAT_2011.03.02",0,742.562801587302,0
+"rovers1_ks99irenamed-assat05-3971.cnf","minisathackLR_GL_SHR_2011.03.02",0,1513.28734920635,1531.67432270149
+"rovers1_ks99irenamed-assat05-3971.cnf","minisathackMiniSAT_2.2.0.agile.26",0,1111.70095833333,1176.96614526417
+"rovers1_ks99irenamed-assat05-3971.cnf","minisathackminisat_psm_2011.04.01",0.01,1090.68374007937,957.363381726512
+"rovers1_ks99irenamed-assat05-3971.cnf","minisathackreferenceminisat_2.2.0",0,1444.69430952381,1676.78426599121
+"rovers1_ks99irenamed-assat05-3971.cnf","MPhaseSAT64",0.01,528.873609126984,184.026754480876
+"rovers1_ks99irenamed-assat05-3971.cnf","rcl_2011.04.01",0.02,1010.13390873016,387.652649580365
+"rovers1_ks99irenamed-assat05-3971.cnf","RestartSAT_B95",0,1544.47744047619,1752.77841508757
+"rovers1_ks99irenamed-assat05-3971.cnf","SAT09referencesolverprecosat_236",0,1160.23821626984,991.690769272978

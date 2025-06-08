@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"MinFill_R1_games120.wcnf","MaxHS",3600,2104.92244370578,816.298283154799
+"MinFill_R1_games120.wcnf","maxino2018",3600,1226.8036722519,270.822247311806
+"MinFill_R1_games120.wcnf","Open.WBO.g",3600,1350.48419339515,658.61412936513
+"MinFill_R1_games120.wcnf","Open.WBO.ms",3600,1540.87525811116,862.528065524161
+"MinFill_R1_games120.wcnf","Open.WBO.ms.pre",3600,1324.54385920225,622.994282976253
+"MinFill_R1_games120.wcnf","QMaxSAT2018",3600,1719.60467101213,1081.74347531839
+"MinFill_R1_games120.wcnf","UWrMaxSat.1.0",3600,1417.23724938842,677.535166583258

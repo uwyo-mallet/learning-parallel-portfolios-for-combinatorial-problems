@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"pima_train_5_CNF_2_1.wcnf","MaxHS",3600,1199.16945045064,122.627600257841
+"pima_train_5_CNF_2_1.wcnf","maxino2018",398.8,1459.85335345761,76.6835916986969
+"pima_train_5_CNF_2_1.wcnf","Open.WBO.g",1357.5,1534.63261019588,72.7109277105265
+"pima_train_5_CNF_2_1.wcnf","Open.WBO.ms",863.93,1362.36336294532,102.484429241859
+"pima_train_5_CNF_2_1.wcnf","Open.WBO.ms.pre",101.46,1627.85399656162,268.356567027086
+"pima_train_5_CNF_2_1.wcnf","QMaxSAT2018",3600,1881.23843384431,96.7323746469965
+"pima_train_5_CNF_2_1.wcnf","UWrMaxSat.1.0",10.63,1334.58363712464,104.877875472025

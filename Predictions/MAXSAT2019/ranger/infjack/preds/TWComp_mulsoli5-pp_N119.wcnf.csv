@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"TWComp_mulsoli5-pp_N119.wcnf","MaxHS",3600,2153.82463178995,149.123354183015
+"TWComp_mulsoli5-pp_N119.wcnf","maxino2018",1404.25,1508.03962053932,118.608514198641
+"TWComp_mulsoli5-pp_N119.wcnf","Open.WBO.g",3465.46,1644.12815694217,124.54317795906
+"TWComp_mulsoli5-pp_N119.wcnf","Open.WBO.ms",950.85,1555.13399035425,185.247544288647
+"TWComp_mulsoli5-pp_N119.wcnf","Open.WBO.ms.pre",776.92,1489.6500026168,106.827766961984
+"TWComp_mulsoli5-pp_N119.wcnf","QMaxSAT2018",140.97,1960.23542148999,145.758390863398
+"TWComp_mulsoli5-pp_N119.wcnf","UWrMaxSat.1.0",1192.52,1517.02693181969,114.761994388005

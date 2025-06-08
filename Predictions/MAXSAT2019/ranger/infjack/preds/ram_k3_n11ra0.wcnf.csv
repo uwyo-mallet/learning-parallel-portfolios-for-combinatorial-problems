@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"ram_k3_n11ra0.wcnf","MaxHS",3600,3363.67782305936,113.377713738257
+"ram_k3_n11ra0.wcnf","maxino2018",3600,3521.5006032666,78.1424670025909
+"ram_k3_n11ra0.wcnf","Open.WBO.g",3600,3497.68046917808,219.611205935891
+"ram_k3_n11ra0.wcnf","Open.WBO.ms",3600,3575.34712328767,90.5300310599933
+"ram_k3_n11ra0.wcnf","Open.WBO.ms.pre",3600,3403.65140981735,329.878943078812
+"ram_k3_n11ra0.wcnf","QMaxSAT2018",3600,3600,92.0123060058448
+"ram_k3_n11ra0.wcnf","UWrMaxSat.1.0",3600,3446.0718619863,154.824490146978

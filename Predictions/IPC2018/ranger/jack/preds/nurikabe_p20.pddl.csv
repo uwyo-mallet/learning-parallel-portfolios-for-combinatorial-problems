@@ -1,0 +1,16 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"nurikabe_p20.pddl","blind",1800,1751.72464285714,0
+"nurikabe_p20.pddl","Complementary1",1800,1733.40529271709,0
+"nurikabe_p20.pddl","Complementary2",1800,1769.99185994398,0
+"nurikabe_p20.pddl","DecStar",1800,1739.97222689076,198.949632470573
+"nurikabe_p20.pddl","Delfi1",375.59,822.981708683473,313.502092123153
+"nurikabe_p20.pddl","Delfi2",1800,1239.88366526611,736.937474776907
+"nurikabe_p20.pddl","FDMS1",1800,1749.44696218487,160.042024091487
+"nurikabe_p20.pddl","FDMS2",1800,1780.79337394958,19.6889910956479
+"nurikabe_p20.pddl","Metis1",1800,1765.50805042017,0
+"nurikabe_p20.pddl","Metis2",1800,1736.40878571429,103.160087189244
+"nurikabe_p20.pddl","Planning.PDBs",1800,1789.06317226891,45.7130471903056
+"nurikabe_p20.pddl","Scorpion",1800,1757.23375070028,134.500415215046
+"nurikabe_p20.pddl","symbolic.bidirectional",1800,1780.16804621849,52.6525693234772
+"nurikabe_p20.pddl","Symple.1",1800,1775.14571428571,0
+"nurikabe_p20.pddl","Symple.2",1800,1777.44704201681,89.4870912683314

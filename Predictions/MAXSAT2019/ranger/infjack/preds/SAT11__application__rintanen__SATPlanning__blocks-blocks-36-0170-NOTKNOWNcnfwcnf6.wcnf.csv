@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","MaxHS",971.84,1546.27696012673,174.908569576295
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","maxino2018",1146.91,1136.42615335406,458.555259341393
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","Open.WBO.g",160.65,992.435977762051,73.215348893629
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","Open.WBO.ms",905.58,1037.600345686,330.924984597527
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","Open.WBO.ms.pre",718.2,974.085026283322,53.0360689526951
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","QMaxSAT2018",3600,1892.4047787224,124.310418441402
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","UWrMaxSat.1.0",270.06,924.95821680481,179.085716244543

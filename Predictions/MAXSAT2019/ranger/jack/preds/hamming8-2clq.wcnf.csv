@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"hamming8-2clq.wcnf","MaxHS",3600,3094.53868954248,1492.39669178783
+"hamming8-2clq.wcnf","maxino2018",3600,2979.41193137255,1321.21211321384
+"hamming8-2clq.wcnf","Open.WBO.g",3600,2784.27626143791,2417.84296976196
+"hamming8-2clq.wcnf","Open.WBO.ms",3600,2860.06580200586,2257.53314750842
+"hamming8-2clq.wcnf","Open.WBO.ms.pre",3600,1479.32044733154,2475.21166835192
+"hamming8-2clq.wcnf","QMaxSAT2018",3600,2902.36798665052,2521.34007665518
+"hamming8-2clq.wcnf","UWrMaxSat.1.0",3600,3013.24109477124,2292.57272495559

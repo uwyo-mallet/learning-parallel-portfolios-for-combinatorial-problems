@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"frb40-19-5partial.wcnf","MaxHS",81.32,826.407384453228,264.126562277794
+"frb40-19-5partial.wcnf","maxino2018",3600,3594.60606956522,126.583406985305
+"frb40-19-5partial.wcnf","Open.WBO.g",237.38,294.555194616977,111.453981453472
+"frb40-19-5partial.wcnf","Open.WBO.ms",75.08,133.335398550725,136.511820228709
+"frb40-19-5partial.wcnf","Open.WBO.ms.pre",3600,3594.94843478261,126.988275819727
+"frb40-19-5partial.wcnf","QMaxSAT2018",766.06,485.388395652174,290.824452101212
+"frb40-19-5partial.wcnf","UWrMaxSat.1.0",54.74,138.089339130435,101.040740388152

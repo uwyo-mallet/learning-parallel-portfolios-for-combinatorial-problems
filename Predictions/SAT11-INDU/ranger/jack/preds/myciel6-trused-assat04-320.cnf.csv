@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"myciel6-trused-assat04-320.cnf","glucose_2.0",5000,1403.51055651341,0
+"myciel6-trused-assat04-320.cnf","glueminisat.2.2.5",4886.7,986.248087164751,0
+"myciel6-trused-assat04-320.cnf","lingeling.587f.4882048.110513",5000,926.804650383142,0
+"myciel6-trused-assat04-320.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,1476.36964367816,1179.28080476922
+"myciel6-trused-assat04-320.cnf","minisathackcontrasat_2011.03.02",5000,1693.86543199234,795.80659649479
+"myciel6-trused-assat04-320.cnf","minisathackEBMiniSAT_2011.03.02",5000,1149.04454214559,0
+"myciel6-trused-assat04-320.cnf","minisathackLR_GL_SHR_2011.03.02",5000,1200.65120785441,0
+"myciel6-trused-assat04-320.cnf","minisathackMiniSAT_2.2.0.agile.26",4759.29,1237.02874521073,907.259325069482
+"myciel6-trused-assat04-320.cnf","minisathackminisat_psm_2011.04.01",5000,1374.76964655172,1038.0676944161
+"myciel6-trused-assat04-320.cnf","minisathackreferenceminisat_2.2.0",5000,1374.05377873563,0
+"myciel6-trused-assat04-320.cnf","MPhaseSAT64",856.76,1627.25966475096,0
+"myciel6-trused-assat04-320.cnf","rcl_2011.04.01",5000,1727.1578045977,422.35613406104
+"myciel6-trused-assat04-320.cnf","RestartSAT_B95",5000,1352.31840708812,1084.2051020489
+"myciel6-trused-assat04-320.cnf","SAT09referencesolverprecosat_236",5000,842.532512452107,0

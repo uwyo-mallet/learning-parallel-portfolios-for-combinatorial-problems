@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"eqatreebraun12unsat.cnf","glucose_2.0",5000,2111.9312019774,161.66496094237
+"eqatreebraun12unsat.cnf","glueminisat.2.2.5",5000,1934.38362570621,206.157816022169
+"eqatreebraun12unsat.cnf","lingeling.587f.4882048.110513",5000,2056.92759039548,235.776652985975
+"eqatreebraun12unsat.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,2784.26031214689,174.542187209532
+"eqatreebraun12unsat.cnf","minisathackcontrasat_2011.03.02",5000,3757.7300480226,961.125944932628
+"eqatreebraun12unsat.cnf","minisathackEBMiniSAT_2011.03.02",5000,4192.26259887006,516.399715082138
+"eqatreebraun12unsat.cnf","minisathackLR_GL_SHR_2011.03.02",5000,3678.21671751412,181.279355086588
+"eqatreebraun12unsat.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,1768.30077542373,139.406051819305
+"eqatreebraun12unsat.cnf","minisathackminisat_psm_2011.04.01",5000,2048.96636723164,259.529438966589
+"eqatreebraun12unsat.cnf","minisathackreferenceminisat_2.2.0",5000,3409.67816949153,402.656477267237
+"eqatreebraun12unsat.cnf","MPhaseSAT64",2213.76,1990.44112570621,532.895213469354
+"eqatreebraun12unsat.cnf","rcl_2011.04.01",5000,3919.03418644068,942.411579785309
+"eqatreebraun12unsat.cnf","RestartSAT_B95",5000,3798.67222457627,190.60145986314
+"eqatreebraun12unsat.cnf","SAT09referencesolverprecosat_236",5000,1996.61338841808,445.511405995699

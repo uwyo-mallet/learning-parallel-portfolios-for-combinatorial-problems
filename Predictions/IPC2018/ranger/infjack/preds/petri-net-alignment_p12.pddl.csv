@@ -1,0 +1,16 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"petri-net-alignment_p12.pddl","blind",1673.69,1797.00397204969,61.6836375412683
+"petri-net-alignment_p12.pddl","Complementary1",119.89,198.678291666667,59.0930200056329
+"petri-net-alignment_p12.pddl","Complementary2",1800,321.748294082126,94.0516023528427
+"petri-net-alignment_p12.pddl","DecStar",235.01,1790.9147826087,51.4151813947682
+"petri-net-alignment_p12.pddl","Delfi1",66.88,99.5538115942029,47.3667731527766
+"petri-net-alignment_p12.pddl","Delfi2",183.78,1788.43364130435,56.677288498937
+"petri-net-alignment_p12.pddl","FDMS1",1800,1800,61.333986378677
+"petri-net-alignment_p12.pddl","FDMS2",1800,1800,64.2090795806951
+"petri-net-alignment_p12.pddl","Metis1",183.36,1784.32402173913,73.8515690451594
+"petri-net-alignment_p12.pddl","Metis2",277.51,1796.85317391304,56.4527319296813
+"petri-net-alignment_p12.pddl","Planning.PDBs",1800,268.90681884058,118.073568228336
+"petri-net-alignment_p12.pddl","Scorpion",1800,1800,73.206578588238
+"petri-net-alignment_p12.pddl","symbolic.bidirectional",1800,164.75081884058,37.7886191796502
+"petri-net-alignment_p12.pddl","Symple.1",1800,1800,96.1656875107644
+"petri-net-alignment_p12.pddl","Symple.2",1800,1800,89.1317727123195

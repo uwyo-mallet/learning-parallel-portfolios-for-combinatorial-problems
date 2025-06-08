@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","MaxHS",0.57,934.256428196354,161.29021636422
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","maxino2018",1.31,984.717629210796,132.969812046476
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","Open.WBO.g",7.81,994.9728664598,296.43407123498
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","Open.WBO.ms",13.76,854.618359880315,182.412164562265
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","Open.WBO.ms.pre",8.92,838.778863550313,252.398835995369
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","QMaxSAT2018",46.81,995.832699109849,262.390241369789
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","UWrMaxSat.1.0",0.92,841.870601575265,213.87565514005

@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"hard-18-U-10652.cnf","glucose_2.0",3.1,1988.57349808429,330.083590250072
+"hard-18-U-10652.cnf","glueminisat.2.2.5",14.45,914.736993295019,0
+"hard-18-U-10652.cnf","lingeling.587f.4882048.110513",64.09,1492.42615421456,1143.45475189124
+"hard-18-U-10652.cnf","minisathackcir_minisat_2011.05.13_simp_",5.55,2128.2470335249,0
+"hard-18-U-10652.cnf","minisathackcontrasat_2011.03.02",13.64,1407.29310057471,570.409950299872
+"hard-18-U-10652.cnf","minisathackEBMiniSAT_2011.03.02",14.48,1591.80114176245,835.070474525359
+"hard-18-U-10652.cnf","minisathackLR_GL_SHR_2011.03.02",13.96,1217.11708429119,0
+"hard-18-U-10652.cnf","minisathackMiniSAT_2.2.0.agile.26",14.24,1747.64022796935,0
+"hard-18-U-10652.cnf","minisathackminisat_psm_2011.04.01",6.31,1579.59825766284,1030.3714568264
+"hard-18-U-10652.cnf","minisathackreferenceminisat_2.2.0",5.55,2622.76280842912,1358.20173665472
+"hard-18-U-10652.cnf","MPhaseSAT64",23.93,1652.73677011494,0
+"hard-18-U-10652.cnf","rcl_2011.04.01",7.49,1834.25167049808,225.766518141713
+"hard-18-U-10652.cnf","RestartSAT_B95",3.81,2216.13847988506,0
+"hard-18-U-10652.cnf","SAT09referencesolverprecosat_236",99.9,1768.04630172414,0

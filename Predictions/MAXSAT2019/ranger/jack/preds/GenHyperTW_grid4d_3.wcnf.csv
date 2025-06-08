@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"GenHyperTW_grid4d_3.wcnf","MaxHS",3600,841.101210721483,1965.21971495708
+"GenHyperTW_grid4d_3.wcnf","maxino2018",3600,1037.32231846006,1507.43965590501
+"GenHyperTW_grid4d_3.wcnf","Open.WBO.g",3600,1519.08612553242,3873.79643830442
+"GenHyperTW_grid4d_3.wcnf","Open.WBO.ms",3600,1139.27993796274,1509.94451566326
+"GenHyperTW_grid4d_3.wcnf","Open.WBO.ms.pre",3600,723.445616132745,1802.58282354321
+"GenHyperTW_grid4d_3.wcnf","QMaxSAT2018",3600,1710.55185450186,4830.1917551646
+"GenHyperTW_grid4d_3.wcnf","UWrMaxSat.1.0",3600,1016.09616748076,1118.85240559505

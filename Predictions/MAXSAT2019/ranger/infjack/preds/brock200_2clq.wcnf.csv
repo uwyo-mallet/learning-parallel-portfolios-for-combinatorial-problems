@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"brock200_2clq.wcnf","MaxHS",91.55,863.467790562025,254.590174093378
+"brock200_2clq.wcnf","maxino2018",42.4,1148.29071707754,119.512131567508
+"brock200_2clq.wcnf","Open.WBO.g",33.67,1188.05469282014,272.740625376908
+"brock200_2clq.wcnf","Open.WBO.ms",61.25,1094.03061301566,127.931846017717
+"brock200_2clq.wcnf","Open.WBO.ms.pre",35.52,1166.1629086701,87.2370511766103
+"brock200_2clq.wcnf","QMaxSAT2018",12.57,1914.63740337783,110.500761398278
+"brock200_2clq.wcnf","UWrMaxSat.1.0",10.08,1200.24075287376,88.20274230555

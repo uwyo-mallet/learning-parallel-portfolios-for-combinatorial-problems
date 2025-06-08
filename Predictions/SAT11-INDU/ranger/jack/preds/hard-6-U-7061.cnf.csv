@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"hard-6-U-7061.cnf","glucose_2.0",3.21,1073.98596666667,0
+"hard-6-U-7061.cnf","glueminisat.2.2.5",2.82,478.907872727273,170.073148068819
+"hard-6-U-7061.cnf","lingeling.587f.4882048.110513",12.19,386.408221212121,1384.3676790571
+"hard-6-U-7061.cnf","minisathackcir_minisat_2011.05.13_simp_",2.33,1545.37691212121,2191.07068193524
+"hard-6-U-7061.cnf","minisathackcontrasat_2011.03.02",2.92,982.455260606061,1482.20106329287
+"hard-6-U-7061.cnf","minisathackEBMiniSAT_2011.03.02",2.98,1302.65583333333,1559.88570009422
+"hard-6-U-7061.cnf","minisathackLR_GL_SHR_2011.03.02",3.03,929.129690909091,0
+"hard-6-U-7061.cnf","minisathackMiniSAT_2.2.0.agile.26",2.84,878.270272727273,507.490035470724
+"hard-6-U-7061.cnf","minisathackminisat_psm_2011.04.01",7.7,921.569093939394,0
+"hard-6-U-7061.cnf","minisathackreferenceminisat_2.2.0",2.12,1708.63756363636,446.34544684558
+"hard-6-U-7061.cnf","MPhaseSAT64",9.62,2251.28985151515,2723.53273078989
+"hard-6-U-7061.cnf","rcl_2011.04.01",7.94,1493.64151515152,2710.42851418794
+"hard-6-U-7061.cnf","RestartSAT_B95",2.38,1378.50723030303,1002.22068256
+"hard-6-U-7061.cnf","SAT09referencesolverprecosat_236",14.09,1690.16037272727,2945.9343282255

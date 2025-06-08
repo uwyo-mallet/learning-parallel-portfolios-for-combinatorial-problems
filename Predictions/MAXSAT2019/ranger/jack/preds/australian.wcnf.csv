@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"australian.wcnf","MaxHS",3600,2243.91399035193,386.181407900606
+"australian.wcnf","maxino2018",3600,1497.69905857469,282.596723210263
+"australian.wcnf","Open.WBO.g",3600,1618.51714501168,318.34217751537
+"australian.wcnf","Open.WBO.ms",3600,1440.52608286551,335.080200484365
+"australian.wcnf","Open.WBO.ms.pre",3600,1373.54622243579,282.381950299663
+"australian.wcnf","QMaxSAT2018",3600,1664.02989677066,304.622232744042
+"australian.wcnf","UWrMaxSat.1.0",3600,1419.5900059906,278.434154389625

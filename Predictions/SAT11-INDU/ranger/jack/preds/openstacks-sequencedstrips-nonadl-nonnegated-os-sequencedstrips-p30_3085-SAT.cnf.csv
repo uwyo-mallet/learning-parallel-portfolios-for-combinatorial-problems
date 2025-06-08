@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","glucose_2.0",11.16,2320.17747631579,712.634862390615
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","glueminisat.2.2.5",31.74,2965.13488157895,1220.48957195595
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","lingeling.587f.4882048.110513",8.52,2963.49295438596,0
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","minisathackcir_minisat_2011.05.13_simp_",13.51,2727.75660789474,556.244977849739
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","minisathackcontrasat_2011.03.02",3.45,2214.96939649123,1043.92909365333
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","minisathackEBMiniSAT_2011.03.02",21.9,2339.20093245614,1165.21009368182
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","minisathackLR_GL_SHR_2011.03.02",17.79,3461.53950350877,344.305682783777
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","minisathackMiniSAT_2.2.0.agile.26",7.97,2265.97729649123,0
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","minisathackminisat_psm_2011.04.01",9.52,2908.70512192982,0
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","minisathackreferenceminisat_2.2.0",38.27,2482.01930175439,766.659535857851
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","MPhaseSAT64",25.61,2747.48020877193,1649.29149844535
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","rcl_2011.04.01",72.62,2276.83786403509,0
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","RestartSAT_B95",53.93,2410.24844210526,0
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","SAT09referencesolverprecosat_236",235.58,2230.69722982456,975.855759561631

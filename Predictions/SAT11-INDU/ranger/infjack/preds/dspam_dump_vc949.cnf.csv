@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"dspam_dump_vc949.cnf","glucose_2.0",30.74,1506.43298882682,1032.99770517526
+"dspam_dump_vc949.cnf","glueminisat.2.2.5",0.27,1393.49099534451,858.993236403565
+"dspam_dump_vc949.cnf","lingeling.587f.4882048.110513",1.55,170.583395716946,124.037789662902
+"dspam_dump_vc949.cnf","minisathackcir_minisat_2011.05.13_simp_",167.78,1303.29382681564,791.625750105929
+"dspam_dump_vc949.cnf","minisathackcontrasat_2011.03.02",0.27,62.6140849960096,123.649247397146
+"dspam_dump_vc949.cnf","minisathackEBMiniSAT_2011.03.02",0.26,1490.00380633147,1001.08181539557
+"dspam_dump_vc949.cnf","minisathackLR_GL_SHR_2011.03.02",0.29,67.2670344506518,159.200883944603
+"dspam_dump_vc949.cnf","minisathackMiniSAT_2.2.0.agile.26",0.28,1323.77644413408,346.226144850653
+"dspam_dump_vc949.cnf","minisathackminisat_psm_2011.04.01",0.71,127.813801675978,146.958353039012
+"dspam_dump_vc949.cnf","minisathackreferenceminisat_2.2.0",308.43,1247.37523556797,690.668401329498
+"dspam_dump_vc949.cnf","MPhaseSAT64",3.64,97.5245223463687,163.18638542756
+"dspam_dump_vc949.cnf","rcl_2011.04.01",0.71,152.903695530726,151.820204838647
+"dspam_dump_vc949.cnf","RestartSAT_B95",127.68,1284.06417783985,1261.77211202633
+"dspam_dump_vc949.cnf","SAT09referencesolverprecosat_236",0.61,238.925977653631,190.894117179402

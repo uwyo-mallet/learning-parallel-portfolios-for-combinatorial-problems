@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"velev-pipe-o-uns-11-6.cnf","glucose_2.0",595.34,773.686685463659,208.866721818687
+"velev-pipe-o-uns-11-6.cnf","glueminisat.2.2.5",21.67,396.414551378446,183.367511152295
+"velev-pipe-o-uns-11-6.cnf","lingeling.587f.4882048.110513",13.88,855.397231829574,362.375018383293
+"velev-pipe-o-uns-11-6.cnf","minisathackcir_minisat_2011.05.13_simp_",19.29,928.083913533835,230.296057884456
+"velev-pipe-o-uns-11-6.cnf","minisathackcontrasat_2011.03.02",15.67,753.23613283208,142.05523617689
+"velev-pipe-o-uns-11-6.cnf","minisathackEBMiniSAT_2011.03.02",559.27,955.76697368421,357.530640194659
+"velev-pipe-o-uns-11-6.cnf","minisathackLR_GL_SHR_2011.03.02",9.25,596.528244360902,219.968858085661
+"velev-pipe-o-uns-11-6.cnf","minisathackMiniSAT_2.2.0.agile.26",787.94,787.140010025063,301.522178723283
+"velev-pipe-o-uns-11-6.cnf","minisathackminisat_psm_2011.04.01",247.36,699.084610275689,307.959301799492
+"velev-pipe-o-uns-11-6.cnf","minisathackreferenceminisat_2.2.0",576.66,880.439319548872,201.091153462177
+"velev-pipe-o-uns-11-6.cnf","MPhaseSAT64",44.82,1083.09239473684,213.002094420695
+"velev-pipe-o-uns-11-6.cnf","rcl_2011.04.01",249.25,1138.03731077694,140.740531638268
+"velev-pipe-o-uns-11-6.cnf","RestartSAT_B95",84.54,547.11699122807,225.982313770851
+"velev-pipe-o-uns-11-6.cnf","SAT09referencesolverprecosat_236",23.41,967.362359649123,145.997361544912

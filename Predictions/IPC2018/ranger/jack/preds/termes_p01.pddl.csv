@@ -1,0 +1,16 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"termes_p01.pddl","blind",1.68,94.6537347799879,171.903010839151
+"termes_p01.pddl","Complementary1",2.91,80.635082278481,67.249379073821
+"termes_p01.pddl","Complementary2",3.04,66.310803496082,23.7745558541126
+"termes_p01.pddl","DecStar",15.46,240.678988396624,155.20799626993
+"termes_p01.pddl","Delfi1",3.96,26.8451114124975,36.8544929731371
+"termes_p01.pddl","Delfi2",16.39,473.773807313643,0
+"termes_p01.pddl","FDMS1",2.23,29.7511540084388,41.1461202883451
+"termes_p01.pddl","FDMS2",6.7,19.8598390596745,4.76521895953686
+"termes_p01.pddl","Metis1",15.2,698.394232067511,358.914857219752
+"termes_p01.pddl","Metis2",16.59,702.639950723327,596.006166803747
+"termes_p01.pddl","Planning.PDBs",3.08,132.683575949367,168.076859410922
+"termes_p01.pddl","Scorpion",307.78,281.50101748041,11.6436693552783
+"termes_p01.pddl","symbolic.bidirectional",0.53,3.50224683544304,7.55261362728039
+"termes_p01.pddl","Symple.1",4.22,49.8637079566004,0
+"termes_p01.pddl","Symple.2",4.42,58.5781081977095,0

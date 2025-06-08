@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","glucose_2.0",212.73,890.220637426901,298.876888360948
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","glueminisat.2.2.5",123.98,1430.36497953216,354.708116883376
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","lingeling.587f.4882048.110513",336.2,1350.85020760234,308.395846481738
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","minisathackcir_minisat_2011.05.13_simp_",564.4,1877.78329824561,464.351619529091
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","minisathackcontrasat_2011.03.02",294.93,1311.57549122807,370.577226772005
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","minisathackEBMiniSAT_2011.03.02",243.74,1389.3652251462,358.934352905406
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","minisathackLR_GL_SHR_2011.03.02",231.99,1878.87009064327,189.573842171542
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","minisathackMiniSAT_2.2.0.agile.26",369.73,1616.14465204678,523.531637138605
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","minisathackminisat_psm_2011.04.01",518.33,2295.72467836257,431.849004757555
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","minisathackreferenceminisat_2.2.0",444.97,1294.05098538012,833.977599323033
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","MPhaseSAT64",239.82,1243.17621345029,613.89634799567
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","rcl_2011.04.01",236.91,1366.39300292398,1092.56097209369
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","RestartSAT_B95",267.5,1381.36851169591,585.477710241867
+"grid-strips-grid-y-3035-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",152.89,1026.67903508772,502.681313476381

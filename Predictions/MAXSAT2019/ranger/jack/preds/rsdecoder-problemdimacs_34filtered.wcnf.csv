@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"rsdecoder-problemdimacs_34filtered.wcnf","MaxHS",47.12,1838.99660160613,1057.03725839732
+"rsdecoder-problemdimacs_34filtered.wcnf","maxino2018",7.87,1366.05480739932,280.451156252623
+"rsdecoder-problemdimacs_34filtered.wcnf","Open.WBO.g",1.75,1900.65447971242,1492.09799893179
+"rsdecoder-problemdimacs_34filtered.wcnf","Open.WBO.ms",218.66,1896.63134852412,1538.03602899241
+"rsdecoder-problemdimacs_34filtered.wcnf","Open.WBO.ms.pre",43.04,1831.53804147522,1477.5455651559
+"rsdecoder-problemdimacs_34filtered.wcnf","QMaxSAT2018",163.98,1323.05254127979,686.745056872839
+"rsdecoder-problemdimacs_34filtered.wcnf","UWrMaxSat.1.0",4.03,1965.50530694307,2335.55552790333

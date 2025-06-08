@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"countbitswegner128.cnf","glucose_2.0",5000,3482.45694491525,151.543417954566
+"countbitswegner128.cnf","glueminisat.2.2.5",3023.72,2475.20997457627,196.705803828186
+"countbitswegner128.cnf","lingeling.587f.4882048.110513",5000,3242.16774293785,148.01114375706
+"countbitswegner128.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,3670.61968785311,245.614206655202
+"countbitswegner128.cnf","minisathackcontrasat_2011.03.02",5000,3475.24449011299,237.352670648846
+"countbitswegner128.cnf","minisathackEBMiniSAT_2011.03.02",5000,3659.25436581921,301.48511597509
+"countbitswegner128.cnf","minisathackLR_GL_SHR_2011.03.02",5000,3669.58499576271,182.73568799922
+"countbitswegner128.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,3414.55721610169,751.533452816392
+"countbitswegner128.cnf","minisathackminisat_psm_2011.04.01",5000,3514.8811200565,764.77986362143
+"countbitswegner128.cnf","minisathackreferenceminisat_2.2.0",5000,3732.01599717514,201.247810014056
+"countbitswegner128.cnf","MPhaseSAT64",5000,3318.89324293785,280.315520935824
+"countbitswegner128.cnf","rcl_2011.04.01",5000,3323.50890677966,559.437301792995
+"countbitswegner128.cnf","RestartSAT_B95",5000,3763.28341101695,201.606297828293
+"countbitswegner128.cnf","SAT09referencesolverprecosat_236",5000,2970.51235875706,340.523655402079

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","MaxHS",836.07,1549.23635734606,0
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","maxino2018",98.2,2036.69859718984,580.924204038116
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","Open.WBO.g",146.7,1958.95029717875,485.316521052591
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","Open.WBO.ms",119.52,1667.89751664549,335.309505218481
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","Open.WBO.ms.pre",29.68,1662.24941396985,497.122849329733
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","QMaxSAT2018",181.54,2449.23629081572,406.989161208509
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","UWrMaxSat.1.0",7.97,1683.17014432296,475.404460904428

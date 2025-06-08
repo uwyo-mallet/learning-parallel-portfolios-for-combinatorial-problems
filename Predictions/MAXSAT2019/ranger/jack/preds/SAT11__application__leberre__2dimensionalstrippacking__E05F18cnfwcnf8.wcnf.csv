@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","MaxHS",1013.51,1030.89959754393,0
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","maxino2018",96.33,608.563644194079,421.725338741248
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","Open.WBO.g",56.07,503.538181170652,0
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","Open.WBO.ms",77.38,746.854814593824,0
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","Open.WBO.ms.pre",65.84,528.623939997979,483.591653490135
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","QMaxSAT2018",104.42,869.532675875785,639.176377294336
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","UWrMaxSat.1.0",23.23,433.687825314174,569.182323671085

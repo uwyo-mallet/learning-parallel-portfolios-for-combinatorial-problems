@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"traffic_f_unknown.cnf","glucose_2.0",77.28,262.780724206349,892.223096018982
+"traffic_f_unknown.cnf","glueminisat.2.2.5",164.11,198.680910714286,169.711858156356
+"traffic_f_unknown.cnf","lingeling.587f.4882048.110513",257.06,322.610589285714,374.036253946001
+"traffic_f_unknown.cnf","minisathackcir_minisat_2011.05.13_simp_",312.76,501.281214285714,0
+"traffic_f_unknown.cnf","minisathackcontrasat_2011.03.02",312.57,359.198958333333,0
+"traffic_f_unknown.cnf","minisathackEBMiniSAT_2011.03.02",192.62,455.641452380952,1003.43586382341
+"traffic_f_unknown.cnf","minisathackLR_GL_SHR_2011.03.02",418.54,612.185339285714,167.918598073729
+"traffic_f_unknown.cnf","minisathackMiniSAT_2.2.0.agile.26",201.1,215.398658730159,122.117321429437
+"traffic_f_unknown.cnf","minisathackminisat_psm_2011.04.01",159.67,213.34178968254,0
+"traffic_f_unknown.cnf","minisathackreferenceminisat_2.2.0",215.26,210.069148809524,56.8682685707634
+"traffic_f_unknown.cnf","MPhaseSAT64",356.93,435.420970238095,307.154567649825
+"traffic_f_unknown.cnf","rcl_2011.04.01",314.02,435.875168650794,0
+"traffic_f_unknown.cnf","RestartSAT_B95",309.84,319.732420634921,33.3758582633107
+"traffic_f_unknown.cnf","SAT09referencesolverprecosat_236",267.31,386.311628968254,337.54390404172

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"new-thyroid.wcnf","MaxHS",33.69,1133.44935151785,115.733042814292
+"new-thyroid.wcnf","maxino2018",21.92,1171.24475738162,85.3576251145993
+"new-thyroid.wcnf","Open.WBO.g",9.89,1362.86900668988,73.5938484849024
+"new-thyroid.wcnf","Open.WBO.ms",41.57,1387.98838287356,162.392134749452
+"new-thyroid.wcnf","Open.WBO.ms.pre",47.93,1130.37248344145,58.2095457908055
+"new-thyroid.wcnf","QMaxSAT2018",3600,1762.15835429859,100.734086493059
+"new-thyroid.wcnf","UWrMaxSat.1.0",12.33,1073.20229386441,100.4489482364

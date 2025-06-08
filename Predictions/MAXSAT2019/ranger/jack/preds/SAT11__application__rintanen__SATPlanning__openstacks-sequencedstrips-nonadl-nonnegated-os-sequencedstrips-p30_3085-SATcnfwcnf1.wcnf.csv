@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf1.wcnf","MaxHS",96.3,1810.97709698283,4283.50652370777
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf1.wcnf","maxino2018",1502.22,830.736584205056,2399.81329619389
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf1.wcnf","Open.WBO.g",1.77,874.538544787701,3785.96710751046
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf1.wcnf","Open.WBO.ms",2.82,1111.67563862185,3281.35971769859
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf1.wcnf","Open.WBO.ms.pre",5.63,1258.70222898911,5057.30606812237
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf1.wcnf","QMaxSAT2018",3600,2291.09988447579,2853.03581916362
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf1.wcnf","UWrMaxSat.1.0",77.44,815.023448018085,2701.18925947859

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"fpu8-problemdimacs_24filtered.wcnf","MaxHS",52.7,1701.93205440313,185.706417456324
+"fpu8-problemdimacs_24filtered.wcnf","maxino2018",5.33,847.464210270764,109.181068963854
+"fpu8-problemdimacs_24filtered.wcnf","Open.WBO.g",1.46,1369.04583784345,103.928086874366
+"fpu8-problemdimacs_24filtered.wcnf","Open.WBO.ms",67.7,641.824871990256,144.901854380802
+"fpu8-problemdimacs_24filtered.wcnf","Open.WBO.ms.pre",64.92,566.731642108838,130.168122044847
+"fpu8-problemdimacs_24filtered.wcnf","QMaxSAT2018",38.46,1345.457936039,76.4178138808721
+"fpu8-problemdimacs_24filtered.wcnf","UWrMaxSat.1.0",4.14,750.969598556645,701.40324247716
